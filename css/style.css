@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 5, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -227,7 +228,29 @@ header {
 
 /* line 165, ../sass/style.scss */
 .to-top {
-  position: fixed;
-  bottom: 2em;
-  right: 2em;
+  position: fixed !important;
+  /* фиксированная позиция */
+  right: 80px;
+  /* расстояние от правого края */
+  bottom: 60px;
+  /* расстояние от нижнего края */
+  text-align: center;
+  /*выравнивание содержимого элемента по центру */
+}
+/* line 172, ../sass/style.scss */
+.to-top .btn {
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  box-shadow: 0px 4px 5px gray;
+  padding: 0;
+  color: #999999;
+  /* цвет текста */
+}
+/* line 183, ../sass/style.scss */
+.to-top .btn:hover {
+  box-shadow: 0px 2px 5px gray;
+  color: #7e7e7e;
 }
