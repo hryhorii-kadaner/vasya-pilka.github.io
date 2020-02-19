@@ -64,10 +64,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 6, ../sass/style.scss */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff !important;
+  padding: 0.5em;
+  z-index: 99999;
+}
+/* line 16, ../sass/style.scss */
+header button i {
+  color: black !important;
+}
+/* line 19, ../sass/style.scss */
+header button:focus, header button:active {
+  box-shadow: none !important;
+}
+
+/* line 26, ../sass/style.scss */
 .sec1 {
   padding: 0;
 }
-/* line 8, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .sec1 #slides {
   background-color: #000;
   position: relative;
@@ -76,12 +95,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transition: width .3s linear;
 }
 @media screen and (max-width: 576px) {
-  /* line 8, ../sass/style.scss */
+  /* line 28, ../sass/style.scss */
   .sec1 #slides {
     width: 100%;
   }
 }
-/* line 18, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .sec1 #slides .slide {
   position: absolute;
   width: 100%;
@@ -90,27 +109,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 0;
   transition: opacity .3s linear;
 }
-/* line 27, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .sec1 #slides .showing {
   opacity: 1;
   z-index: 10;
 }
-/* line 32, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(1) {
   background: url("../images/slide1.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 38, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(2) {
   background: url("../images/slide2.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 45, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(3) {
   background: url("../images/slide3.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-

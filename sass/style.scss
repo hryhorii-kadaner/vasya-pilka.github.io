@@ -3,6 +3,26 @@ $bgSize : cover;
 $bgRepeat: no-repeat;
 $bgPos: center center;
 
+header {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background: #fff !important;
+    // box-shadow: 0 0 4px gray;
+    padding: 0.5em;
+    z-index: 99999;
+    button {
+        i {
+            color: black !important;
+        }
+        &:focus, &:active {
+            box-shadow: none !important;
+        }
+    }
+}
+
+
 .sec1 {
     padding: 0;
     #slides {
