@@ -24,8 +24,12 @@ header {
     width: 100%;
     background: #fff !important;
     // box-shadow: 0 0 4px gray;
-    padding: 0.5em;
+    padding: 0.25em;
     z-index: 99999;
+}
+#menuShower {
+    margin-left: .5em;
+    font-size: 25px;
 }
 #menu {
     transition: .3 linear !important;
@@ -112,10 +116,11 @@ header {
 .sec1 {
     padding: 0;
     #slides {
+        margin-top: 100px;
         background-color: #000;
         position: relative;
         width: 80%;
-        height: 45vh;
+        height: 50vh;
         transition: width .3s linear;
         @media screen and (max-width:576px) {
             width: 100%;
