@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 5, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -131,4 +132,31 @@ header button:focus, header button:active {
   background: url("../images/slide3.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+/* line 74, ../sass/style.scss */
+.to-top {
+  position: fixed !important;
+  /* фиксированная позиция */
+  right: 80px;
+  /* расстояние от правого края */
+  bottom: 60px;
+  /* расстояние от нижнего края */
+  text-align: center;
+  /*выравнивание содержимого элемента по центру */
+}
+/* line 81, ../sass/style.scss */
+.to-top .btn {
+  font-size: 30px;
+  color: black;
+  /* цвет текста */
+  border-top-left-radius: 6px;
+  /* скругление верхнего левого угла */
+  border-top-right-radius: 6px;
+  /* скругление верхнего правого угла */
+}
+/* line 87, ../sass/style.scss */
+.to-top .btn:hover {
+  background-color: #5c5c5c;
+  /* цвет заднего фона при наведении */
 }

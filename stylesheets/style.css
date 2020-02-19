@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 5, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -135,7 +136,28 @@ header button:focus, header button:active {
 
 /* line 74, ../sass/style.scss */
 .to-top {
-  position: fixed;
-  bottom: 2em;
-  right: 2em;
+  position: fixed !important;
+  /* фиксированная позиция */
+  color: #6d6d6d;
+  /* цвет текста */
+  background-color: #286090;
+  /* цвет заднего фона */
+  right: 25px;
+  /* расстояние от правого края */
+  bottom: 0px;
+  /* расстояние от нижнего края */
+  padding: 4px 10px;
+  /* отступы до содержимого блока */
+  font-size: 20px;
+  /* размер шрифта (иконки) */
+  border-top-left-radius: 4px;
+  /* скругление верхнего левого угла */
+  border-top-right-radius: 4px;
+  /* скругление верхнего правого угла */
+  cursor: pointer;
+  /* форма курсора */
+  display: none;
+  /* не отображать элемент */
+  text-align: center;
+  /*выравнивание содержимого элемента по центру */
 }
