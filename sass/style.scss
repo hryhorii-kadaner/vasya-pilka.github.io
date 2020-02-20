@@ -40,10 +40,9 @@ header {
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
+    display: none;
     background-color: rgba(#000000,.5);
     z-index: 99999;
-    box-shadow: 0 0 100% black;
     
     
     .main-content {
@@ -52,9 +51,14 @@ header {
         background-color:#fff;
         height: 100%;
         width: 100%;
+        display: none;
         padding-top: 2em;
+        box-shadow: 0 0 10px black;
         transition: .3 linear !important;
         transition: width .3 linear !important;
+        @media screen and (max-width:768px) {
+            max-width: 100%!important;
+        }
         .closeBtn {
             position: absolute;
             right: 0;
@@ -120,9 +124,9 @@ header {
         background-color: #000;
         position: relative;
         width: 80%;
-        height: 50vh;
+        min-height: 450px;
         transition: width .3s linear;
-        @media screen and (max-width:576px) {
+        @media screen and (max-width:768px) {
             width: 100%;
         }
 
