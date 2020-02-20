@@ -240,15 +240,17 @@ header {
 /* line 172, ../sass/style.scss */
 .to-top .btn {
   font-size: 30px;
-  color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  box-shadow: 0px 4px 5px gray;
+  padding: 0;
+  color: #999999;
   /* цвет текста */
-  border-top-left-radius: 6px;
-  /* скругление верхнего левого угла */
-  border-top-right-radius: 6px;
-  /* скругление верхнего правого угла */
 }
-/* line 178, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .to-top .btn:hover {
-  background-color: #5c5c5c;
-  /* цвет заднего фона при наведении */
+  box-shadow: 0px 2px 5px gray;
+  color: #7e7e7e;
 }
