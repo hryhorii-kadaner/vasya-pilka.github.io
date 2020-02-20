@@ -1,12 +1,13 @@
-$(document).ready(function(){
-    $("#list-example").on("click","a", function (event) {
+$(function () {
+    $.fn.scrollToTop = function () {
+        $(this).click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, "slow");
+        });
+    };
+});
 
-        event.preventDefault();
- 
-        var id  = $(this).attr('href'),
- 
-            top = $(id).offset().top;
-         
-        $('body,html').animate({scrollTop: top}, 500);
-    });
+$(function () {
+    $("#topButton").scrollToTop();
 });

@@ -13,11 +13,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/smoothScrolling.js"></script>
+
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
-
+    
     <title>Василь Пілка | Главная</title>
 </head>
 <body>
@@ -59,17 +62,44 @@
         </div>
         <script src="js/slider.js"></script>
     </section>
+    <hr class="text-slicer">
+    <section class="sec2 container-fluid mw992">
 
-    <div class="to-top">
-        <button class="btn">
+        <div class="row align-text-center lh-2">
+            <div class="col-10 mx-auto col-md-8 mh50vh image-container">
+            </div>
+            <div class="col-10 mx-auto col-md-4 h-100 bg-dark text-light mh50vh p-0">
+                <p class="p-3 mh25vh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iste fugit aperiam sit quaerat asperiores, voluptatem officia earum consequuntur impedit accusamus illum. Incidunt, reiciendis. Neque quidem nemo ipsum perferendis quo.</p>
+                <div class="col-12 p-0 text-center mh25vh mt-auto button-holder">
+                    <a href="#" class="btn btn-outline-dark ">Детальніше</a>
+                </div>                
+            </div>            
+        </div>
+        <hr class="text-slicer">
+        <div class="row align-text-center lh-2">
+            
+            <div class="col-10 mx-auto col-md-4 h-100 bg-dark text-light mh50vh p-0 order-1 order-md-0">
+                <p class="p-3 mh25vh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iste fugit aperiam sit quaerat asperiores, voluptatem officia earum consequuntur impedit accusamus illum. Incidunt, reiciendis. Neque quidem nemo ipsum perferendis quo.</p>
+                <div class="col-12 p-0 text-center mh25vh mt-auto button-holder">
+                    <a href="#" class="btn btn-outline-dark ">Детальніше</a>
+                </div>                
+            </div>    
+            <div class="col-10 mx-auto col-md-8 mh50vh image-container order-0 order-md-1">
+            </div>        
+        </div>
+
+    </section>
+
+    <div class="to-top wow " data-wow-duration=".3s" id="topButton" hidden>
+        <a class="btn" href="#">
             <i class="far fa-chevron-up"></i>
-        </button>
+        </a>
     </div>
-    <script src="bootstrap/js/slim.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+   
+    <!-- <script src="bootstrap/js/slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script> -->
 
     <!-- Fontawesome -->
     <script src="fontawesome/js/all.min.js"></script>
-    <script src="js/smoothScrolling.js"></script>
 </body>
 </html>
