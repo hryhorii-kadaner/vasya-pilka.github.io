@@ -171,6 +171,7 @@ header {
     
     .btn {
         font-size: 30px;
+<<<<<<< HEAD
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -179,6 +180,9 @@ header {
         padding: 0;        
         color: rgb(153, 153, 153); /* цвет текста */
         
+=======
+        color: rgb(0, 0, 0); /* цвет текста */
+>>>>>>> 8366482f4d1ad760bc8973294fc097c22fd09c9d
         
     }.btn:hover {
         box-shadow: 0px 2px 5px gray;
