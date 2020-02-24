@@ -4,8 +4,8 @@
     font-family: 'Montserrat', sans-serif !important;
     box-sizing: border-box !important;
 }
-
-$bgSize : cover;
+$yellow: #ffc107;
+$bgSize : contain;
 $bgRepeat: no-repeat;
 $bgPos: center center;
 $gray : #212529;
@@ -18,6 +18,9 @@ $gray : #212529;
     .hidden-on-sm {
         display: none;
     }
+}
+.box-shadow-underlined {
+    box-shadow: inset 0 1.2em #fff, inset 0 1.8em lighten(lightgray, 10%);
 }
 
 .br-none {
