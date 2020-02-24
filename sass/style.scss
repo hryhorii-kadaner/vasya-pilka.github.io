@@ -14,6 +14,12 @@ $gray : #212529;
     max-width: 480px !important;
 }
 
+@media screen and (max-width:768px) {
+    .hidden-on-sm {
+        display: none;
+    }
+}
+
 .br-none {
     border-radius: 0px !important;
 }
@@ -70,17 +76,64 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 63px;
+    min-height: 63px;
     background: #fff !important;
     padding: 0.25em;
     z-index: 99999;
 
     .justify-content-center {
-            .col-12 {
-                a {
-                    margin-right: 50px;
+        .col-12 {
+            ul {
+                display: flex;
+                justify-content: space-around;
+                max-width: 768px !important;
+                li {
+                    text-align: center;
+                    a {
+                        font-size: 20px;
+                        color: black;
+                        text-decoration: none;
+                        &:after {
+                            position: relative;
+                            top:5px;
+                            content: "";
+                            display: block;
+                            margin-right: auto;
+                            margin-left: auto;
+                            height: 2px;
+                            width: 0%;
+                            background: #000;
+                            transition: width .3s linear;
+                        }
+                        &:hover:after{
+                            width: 100%;
+                        }
+                    }
                 }
             }
+
+        }
+    }
+
+    .main-sec {
+        position: relative;
+        min-height: 10vh;
+
+        .centred-top {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            .logo-img {
+                max-width: 100px;
+            }
+
+            .vasyl-img {
+                max-width: 140px;
+            }
+        }
+
     }
 }
 
@@ -94,10 +147,6 @@ header {
         display: block;
         left: unset;
         right: 1em;
-
-        .hidden-on-sm {
-            display: none;
-        }
     }
 
 }
@@ -187,29 +236,9 @@ header {
 
 }
 
-.main-sec {
-    position: relative;
-    min-height: 50vh;
-    .centred-top {
-        position: absolute;
-        top:50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        .logo-img {
-            max-width: 100px;
-        }
-    
-        .vasyl-img {
-            max-width: 140px;
-        }
-    }
-    
-
-}
-
-
 .sec1 {
     padding: 0;
+    margin-top: 25vh;
 
     #slides {
         position: relative;
