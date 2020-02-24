@@ -74,6 +74,14 @@ header {
     background: #fff !important;
     padding: 0.25em;
     z-index: 99999;
+
+    .justify-content-center {
+            .col-12 {
+                a {
+                    margin-right: 50px;
+                }
+            }
+    }
 }
 
 #menuShower {
