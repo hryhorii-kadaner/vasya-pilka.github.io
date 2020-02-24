@@ -159,19 +159,19 @@ header {
     left: unset;
     right: 1em;
   }
-  /* line 88, ../sass/style.scss */
+  /* line 90, ../sass/style.scss */
   #menuShower .hidden-on-sm {
     display: none;
   }
 }
 
-/* line 95, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 #menu {
   transition: .3 linear !important;
   transition: width .3 linear !important;
 }
 
-/* line 100, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 .menuOnClick {
   position: fixed;
   top: 0;
@@ -181,7 +181,7 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 99999;
 }
-/* line 110, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .menuOnClick .main-content {
   text-align: center;
   position: absolute;
@@ -195,45 +195,45 @@ header {
   transition: width .3 linear !important;
 }
 @media screen and (max-width: 768px) {
-  /* line 110, ../sass/style.scss */
+  /* line 112, ../sass/style.scss */
   .menuOnClick .main-content {
     max-width: 100% !important;
   }
 }
-/* line 126, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .menuOnClick .main-content .closeBtn {
   position: absolute;
   right: 0;
   top: 0;
   font-size: 30px;
 }
-/* line 133, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .menuOnClick .main-content .menu-title {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 1em;
 }
-/* line 139, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .menuOnClick .main-content .menu-img {
   margin-top: 2em;
   width: 100px;
 }
-/* line 144, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .menuOnClick .main-content .menu-links {
   margin-top: 2em;
 }
-/* line 148, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .menuOnClick .main-content .menu-links ul li {
   margin-top: 2em;
 }
-/* line 151, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .menuOnClick .main-content .menu-links ul li a {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   color: black;
 }
-/* line 156, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .menuOnClick .main-content .menu-links ul li a:after {
   content: "";
   display: block;
@@ -245,16 +245,37 @@ header {
   width: 0px;
   transition: width .3s linear;
 }
-/* line 168, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .menuOnClick .main-content .menu-links ul li a:hover:after {
   width: 80px;
 }
 
-/* line 180, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
+.main-sec {
+  position: relative;
+  min-height: 50vh;
+}
+/* line 185, ../sass/style.scss */
+.main-sec .centred-top {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 190, ../sass/style.scss */
+.main-sec .centred-top .logo-img {
+  max-width: 100px;
+}
+/* line 194, ../sass/style.scss */
+.main-sec .centred-top .vasyl-img {
+  max-width: 140px;
+}
+
+/* line 203, ../sass/style.scss */
 .sec1 {
   padding: 0;
 }
-/* line 183, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 .sec1 #slides {
   position: relative;
   margin-top: 100px;
@@ -264,12 +285,12 @@ header {
   transition: width .3s linear;
 }
 @media screen and (max-width: 768px) {
-  /* line 183, ../sass/style.scss */
+  /* line 206, ../sass/style.scss */
   .sec1 #slides {
     width: 100%;
   }
 }
-/* line 195, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .sec1 #slides .slide {
   position: absolute;
   width: 100%;
@@ -278,63 +299,47 @@ header {
   opacity: 0;
   transition: opacity .3s linear;
 }
-/* line 205, ../sass/style.scss */
-.sec1 #slides .centerd-wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-/* line 212, ../sass/style.scss */
-.sec1 #slides .centerd-wrapper .col-12 .logo-img {
-  max-width: 150px;
-}
-/* line 216, ../sass/style.scss */
-.sec1 #slides .centerd-wrapper .col-12 .vasyl-img {
-  max-width: 400px;
-}
-/* line 223, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .sec1 #slides .showing {
   opacity: 1;
   z-index: 10;
 }
-/* line 228, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(1) {
   background: url("../images/slide-1.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 234, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(2) {
   background: url("../images/slide-2.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 241, ../sass/style.scss */
+/* line 245, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(3) {
   background: url("../images/slide-3.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 251, ../sass/style.scss */
+/* line 255, ../sass/style.scss */
 .sec2 .modal {
   z-index: 99999;
 }
-/* line 256, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 .sec2 .row .image-container {
   background: url("../images/vasya.png") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 262, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 .sec2 .row .button-holder {
   background-color: #fff;
   position: relative;
   box-shadow: inset 0 0 1px black;
 }
-/* line 267, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 .sec2 .row .button-holder a {
   position: absolute;
   top: 50%;
@@ -342,7 +347,7 @@ header {
   transform: translate(-50%, -50%);
 }
 
-/* line 277, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 .to-top {
   position: fixed !important;
   /* фиксированная позиция */
@@ -354,7 +359,7 @@ header {
   /*выравнивание содержимого элемента по центру */
   animation-fill-mode: both;
 }
-/* line 288, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 .to-top .btn {
   font-size: 30px;
   width: 50px;
@@ -367,19 +372,19 @@ header {
   color: #999999;
   /* цвет текста */
 }
-/* line 304, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 .to-top .btn:hover {
   box-shadow: 0px 2px 5px gray;
   color: #7e7e7e;
 }
 @media screen and (max-width: 576px) {
-  /* line 277, ../sass/style.scss */
+  /* line 281, ../sass/style.scss */
   .to-top {
     right: 30px;
     /* расстояние от правого края */
     bottom: 20px;
   }
-  /* line 314, ../sass/style.scss */
+  /* line 318, ../sass/style.scss */
   .to-top .btn {
     font-size: 24px;
     width: 40px;
