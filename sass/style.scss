@@ -164,7 +164,6 @@ header {
     #slides {
         position: relative;
         margin-top: 100px;
-        background-color: #000;
         position: relative;
         width: 80%;
         min-height: 450px;
@@ -208,21 +207,21 @@ header {
         }
 
         .slide:nth-of-type(1) {
-            background: url("../images/slide1.jpg") $bgRepeat;
+            background: url("../images/slide-1.png") $bgRepeat;
             background-size: $bgSize;
             background-position: $bgPos;
         }
 
         .slide:nth-of-type(2) {
 
-            background: url("../images/slide2.jpg") $bgRepeat;
+            background: url("../images/slide-2.png") $bgRepeat;
             background-size: $bgSize;
             background-position: $bgPos;
         }
 
         .slide:nth-of-type(3) {
 
-            background: url("../images/slide3.jpg") $bgRepeat;
+            background: url("../images/slide-3.png") $bgRepeat;
             background-size: $bgSize;
             background-position: $bgPos;
         }
