@@ -14,7 +14,15 @@ $gray : #212529;
 .mw320 {
     max-width: 480px !important;
 }
-
+iframe {
+    width: 100% !important;
+}
+.iframe-fb-container {
+    border: 1px solid blue;
+ }
+ .iframe-fb {
+    width: 100%;
+    }
 @media screen and (max-width:768px) {
     .hidden-on-sm {
         display: none;
@@ -326,6 +334,15 @@ header {
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
+            }
+        }
+    }
+    .images-cont {
+        .bg-none {
+            .col-6 {
+                width: 50%;
+                height: 50%;
+                background-color: #000;
             }
         }
     }

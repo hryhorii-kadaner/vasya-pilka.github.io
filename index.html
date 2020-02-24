@@ -26,19 +26,21 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v6.0&appId=374281786699723&autoLogAppEvents=1"></script>
     <header class="container-fluid">       
         <div class="row justify-content-center hidden-on-sm">
             <div class="main-sec container-fluid">
                 <div class="row justify-content-center align-items-center">
-                    <div class="centred-top w-100 text-center">
+                    <div class="centred-top w-100 text-center mt-4">
                         <img src="images/logo.png" alt="" class="logo-img">
                         <img src="images/vasyl.png" alt="" class="vasyl-img">   
                     </div>
                              
                 </div>
             </div>
-            <div class="col-12 text-center mt-4 mb-4">
-                <ul class="mx-auto">
+            <div class="col-12 text-center mt-5 mb-4">
+                <ul class="mx-auto mt-4">
                     <li><a href="#">Портфоліо</a></li>
                     <li><a href="#">Анонси</a></li>
                     <li><a href="#">Галерея</a></li>
@@ -59,11 +61,11 @@
                 <button class="btn closeBtn" id="menuCloser">
                     <i class="fas fa-times-square"></i>
                 </button>
-                <div class="menu-title pt-5">
-                    <p>Василь Пілка</p>
+                <div class="menu-title pt-5 mb-5">
+                    <img src="images/menu.png" alt="" class="w-50">
                 </div>
-                <img src="images/line-top.png" alt="" class="menu-img">
-                <div class="menu-links">
+                <hr class="text-slicer">
+                <div class="menu-links mt-5">
                     <ul>
                         <li><a href="#">Портфоліо</a></li>
                         <li><a href="#">Анонси</a></li>
@@ -71,7 +73,6 @@
                         <li><a href="#">Контакти</a></li>
                     </ul>
                 </div>
-                <img src="images/line-botom.png" alt="" class="menu-img">
             </div>
         </div>
         <script src="js/showMenu.js"></script>
@@ -132,21 +133,39 @@
             </div>
         </div>
         <hr class="text-slicer">
-        <div class="row align-text-center lh-2">
+        <div class="row align-text-center lh-2 images-cont">
 
-            <div class="col-10 mx-auto col-md-5 h-100  text-dark bg-none p-0 order-1 order-md-0">
-                <p class="p-3 mh50vh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iste fugit aperiam
-                    sit quaerat asperiores, voluptatem officia earum consequuntur impedit accusamus illum. Incidunt,
-                    reiciendis. Neque quidem nemo ipsum perferendis quo.
-                    <br>
-                    <br>
-                    <a href="#" class="btn box-shadow-underlined br-none">Детальніше &nbsp;<i class="fal fa-long-arrow-right"></i></a>
-                </p>
+            <div class="col-12 d-flex flex-wrap mx-auto col-md-8 h-100 w-100 text-dark bg-none p-0 order-1 order-md-0">
+               <div class="col-6 w-100"></div>
+               <div class="col-6 w-100"></div>
+               <div class="col-6 w-100"></div>
+               <div class="col-6 w-100"></div>
             </div>
-            <div class="col-10 mx-auto col-md-7 mh50vh image-container order-0 order-md-1">
+
+            <div class="col-10 mx-auto col-md-4 mh50vh image-container order-0 order-md-1 p-0">
+                    <div style="filter: grayscale(100%);" class="fb-page center-block float-right" data-href="https://www.facebook.com/facebook/" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>    
+                <script type="text/javascript">
+                    var TIMEOUT = null;
+
+                    $(window).on('resize', function() {
+                        if(TIMEOUT === null) {
+                            TIMEOUT = window.setTimeout(function() {
+                                TIMEOUT = null;
+                                $('.fb-page').removeClass('fb_iframe_widget fb_iframe_widget_fluid');
+
+                                FB.XFBML.parse();
+                            }, 300);
+                        }
+                    });
+                </script>
             </div>
         </div>
     </section>
+    <section class="sec3 container-fluid mw992">
+        <div class="row">
+        </div>
+    </section>
+    
 
     <div class="to-top wow " data-wow-duration=".3s" id="topButton" hidden>
         <a class="btn" href="#">
