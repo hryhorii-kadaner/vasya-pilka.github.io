@@ -6,6 +6,7 @@
 }
 $yellow: #ffc107;
 $bgSize : contain;
+$imagesBgSize: cover;
 $bgRepeat: no-repeat;
 $bgPos: center center;
 $gray : #212529;
@@ -242,6 +243,9 @@ header {
 .sec1 {
     padding: 0;
     margin-top: 25vh;
+    @media screen {
+        
+    }
 
     #slides {
         position: relative;
@@ -300,7 +304,7 @@ header {
         .image-container {
             background: url("../images/vasya.png") $bgRepeat;
             background-position: $bgPos;
-            background-size: $bgSize;
+            background-size: $imagesBgSize;
         }
 
         .button-holder {

@@ -70,81 +70,81 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   box-sizing: border-box !important;
 }
 
-/* line 13, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 .mw320 {
   max-width: 480px !important;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 18, ../sass/style.scss */
+  /* line 19, ../sass/style.scss */
   .hidden-on-sm {
     display: none;
   }
 }
-/* line 22, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 .box-shadow-underlined {
   box-shadow: inset 0 1.2em #fff, inset 0 1.8em #ededed;
 }
 
-/* line 26, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 .br-none {
   border-radius: 0px !important;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .b-none {
   border: none !important;
   box-shadow: inset 0 0 0 1px #212529;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .mw768 {
   max-width: 768px !important;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .mw992 {
   max-width: 992px !important;
 }
 
-/* line 43, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .mw1280 {
   max-width: 1280px !important;
 }
 
-/* line 47, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .mh25vh {
   min-height: 25vh !important;
 }
 
-/* line 51, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .mh50vh {
   min-height: 50vh !important;
 }
 
-/* line 55, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .h25vh {
   height: 25vh !important;
 }
 
-/* line 61, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .btn:focus, .btn:active {
   box-shadow: none !important;
 }
 
-/* line 67, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .lh-2 {
   line-height: 1.5;
 }
 
-/* line 71, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 .text-slicer {
   max-width: 12em;
   margin-top: 2em;
   padding-bottom: 2em;
 }
 
-/* line 77, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 header {
   position: fixed;
   top: 0;
@@ -155,23 +155,23 @@ header {
   padding: 0.25em;
   z-index: 99999;
 }
-/* line 89, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 header .justify-content-center .col-12 ul {
   display: flex;
   justify-content: space-around;
   max-width: 768px !important;
 }
-/* line 93, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 header .justify-content-center .col-12 ul li {
   text-align: center;
 }
-/* line 95, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 header .justify-content-center .col-12 ul li a {
   font-size: 20px;
   color: black;
   text-decoration: none;
 }
-/* line 99, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 header .justify-content-center .col-12 ul li a:after {
   position: relative;
   top: 5px;
@@ -184,32 +184,32 @@ header .justify-content-center .col-12 ul li a:after {
   background: #000;
   transition: width .3s linear;
 }
-/* line 111, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 header .justify-content-center .col-12 ul li a:hover:after {
   width: 100%;
 }
-/* line 121, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 header .main-sec {
   position: relative;
   min-height: 10vh;
 }
-/* line 125, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 header .main-sec .centred-top {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 131, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 header .main-sec .centred-top .logo-img {
   max-width: 100px;
 }
-/* line 135, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 header .main-sec .centred-top .vasyl-img {
   max-width: 140px;
 }
 
-/* line 143, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 #menuShower {
   display: none;
   position: absolute;
@@ -217,7 +217,7 @@ header .main-sec .centred-top .vasyl-img {
   font-size: 25px;
 }
 @media screen and (max-width: 768px) {
-  /* line 143, ../sass/style.scss */
+  /* line 144, ../sass/style.scss */
   #menuShower {
     display: block;
     left: unset;
@@ -225,13 +225,13 @@ header .main-sec .centred-top .vasyl-img {
   }
 }
 
-/* line 157, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 #menu {
   transition: .3 linear !important;
   transition: width .3 linear !important;
 }
 
-/* line 162, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .menuOnClick {
   position: fixed;
   top: 0;
@@ -241,7 +241,7 @@ header .main-sec .centred-top .vasyl-img {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 99999;
 }
-/* line 172, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 .menuOnClick .main-content {
   text-align: center;
   position: absolute;
@@ -255,45 +255,45 @@ header .main-sec .centred-top .vasyl-img {
   transition: width .3 linear !important;
 }
 @media screen and (max-width: 768px) {
-  /* line 172, ../sass/style.scss */
+  /* line 173, ../sass/style.scss */
   .menuOnClick .main-content {
     max-width: 100% !important;
   }
 }
-/* line 188, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .menuOnClick .main-content .closeBtn {
   position: absolute;
   right: 0;
   top: 0;
   font-size: 30px;
 }
-/* line 195, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 .menuOnClick .main-content .menu-title {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 1em;
 }
-/* line 201, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .menuOnClick .main-content .menu-img {
   margin-top: 2em;
   width: 100px;
 }
-/* line 206, ../sass/style.scss */
+/* line 207, ../sass/style.scss */
 .menuOnClick .main-content .menu-links {
   margin-top: 2em;
 }
-/* line 210, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .menuOnClick .main-content .menu-links ul li {
   margin-top: 2em;
 }
-/* line 213, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 .menuOnClick .main-content .menu-links ul li a {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   color: black;
 }
-/* line 219, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 .menuOnClick .main-content .menu-links ul li a:after {
   content: "";
   display: block;
@@ -305,17 +305,17 @@ header .main-sec .centred-top .vasyl-img {
   width: 0px;
   transition: width .3s linear;
 }
-/* line 231, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .menuOnClick .main-content .menu-links ul li a:hover:after {
   width: 80px;
 }
 
-/* line 242, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .sec1 {
   padding: 0;
   margin-top: 25vh;
 }
-/* line 246, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 .sec1 #slides {
   position: relative;
   margin-top: 100px;
@@ -325,12 +325,12 @@ header .main-sec .centred-top .vasyl-img {
   transition: width .3s linear;
 }
 @media screen and (max-width: 768px) {
-  /* line 246, ../sass/style.scss */
+  /* line 250, ../sass/style.scss */
   .sec1 #slides {
     width: 100%;
   }
 }
-/* line 258, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 .sec1 #slides .slide {
   position: absolute;
   width: 100%;
@@ -339,47 +339,47 @@ header .main-sec .centred-top .vasyl-img {
   opacity: 0;
   transition: opacity .3s linear;
 }
-/* line 267, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 .sec1 #slides .showing {
   opacity: 1;
   z-index: 10;
 }
-/* line 272, ../sass/style.scss */
+/* line 276, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(1) {
   background: url("../images/slide-1.png") no-repeat;
   background-size: contain;
   background-position: center center;
 }
-/* line 278, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(2) {
   background: url("../images/slide-2.png") no-repeat;
   background-size: contain;
   background-position: center center;
 }
-/* line 285, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(3) {
   background: url("../images/slide-1-1.png") no-repeat;
   background-size: contain;
   background-position: center center;
 }
 
-/* line 295, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 .sec2 .modal {
   z-index: 99999;
 }
-/* line 300, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 .sec2 .row .image-container {
   background: url("../images/vasya.png") no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
 }
-/* line 306, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 .sec2 .row .button-holder {
   background-color: #fff;
   position: relative;
   box-shadow: inset 0 0 1px black;
 }
-/* line 311, ../sass/style.scss */
+/* line 315, ../sass/style.scss */
 .sec2 .row .button-holder a {
   position: absolute;
   top: 50%;
@@ -387,7 +387,7 @@ header .main-sec .centred-top .vasyl-img {
   transform: translate(-50%, -50%);
 }
 
-/* line 321, ../sass/style.scss */
+/* line 325, ../sass/style.scss */
 .to-top {
   position: fixed !important;
   /* фиксированная позиция */
@@ -399,7 +399,7 @@ header .main-sec .centred-top .vasyl-img {
   /*выравнивание содержимого элемента по центру */
   animation-fill-mode: both;
 }
-/* line 332, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 .to-top .btn {
   font-size: 30px;
   width: 50px;
@@ -412,19 +412,19 @@ header .main-sec .centred-top .vasyl-img {
   color: #999999;
   /* цвет текста */
 }
-/* line 348, ../sass/style.scss */
+/* line 352, ../sass/style.scss */
 .to-top .btn:hover {
   box-shadow: 0px 2px 5px gray;
   color: #7e7e7e;
 }
 @media screen and (max-width: 576px) {
-  /* line 321, ../sass/style.scss */
+  /* line 325, ../sass/style.scss */
   .to-top {
     right: 30px;
     /* расстояние от правого края */
     bottom: 20px;
   }
-  /* line 358, ../sass/style.scss */
+  /* line 362, ../sass/style.scss */
   .to-top .btn {
     font-size: 24px;
     width: 40px;
