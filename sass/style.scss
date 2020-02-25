@@ -349,14 +349,22 @@ header {
             }
         }
     }
+    .images-portfolio {
+        @media screen and (max-width:460px){
+            display: none !important;
+        }
+   }
     .images-cont {
         .bg-none {
             .col-6 {
-                width: 50%;
-                height: 50%;
+                height: 26vh;
                 background-color: #000;
+                box-shadow: inset 0 0 0 5px white;
+                background: url("../images/slide1.jpg") $bgRepeat;
+                background-position: $bgPos;
+                background-size: cover;
             }
-        }
+        }      
     }
 }
 
