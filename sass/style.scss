@@ -11,7 +11,9 @@ $imagesBgSize: cover;
 $bgRepeat: no-repeat;
 $bgPos: center center;
 $gray : #212529;
-
+.grayscale100 {
+    filter: grayscale(100%) !important;
+}
 .mw320 {
     max-width: 480px !important;
 }
@@ -343,12 +345,8 @@ header {
         z-index: 99999;
     }
 
-    
-
-    
-     
-
     .row {
+        
         .image-container {
             background: url("../images/vasya.png") $bgRepeat;
             background-position: $bgPos;
