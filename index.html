@@ -14,7 +14,23 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
 
+    <link rel="stylesheet" href="pgwCss/pgwslider.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
+    <script src="js/pgwslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.pgwSlider').pgwSlider({
+                maxHeight: 900,
+                autoSlide: false,
+                adaptiveHeight: true,
+                adaptiveDuration: 500,
+                transitionDuration: 500,
+                displayControls: false
+            });
+        });
+    </script>
     <script src="js/smoothScrolling.js"></script>
 
     <script src="js/wow.min.js"></script>
@@ -27,8 +43,10 @@
 
 <body>
     <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v6.0&appId=374281786699723&autoLogAppEvents=1"></script>
-<header class="container-fluid">
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v6.0&appId=374281786699723&autoLogAppEvents=1">
+    </script>
+    <header class="container-fluid">
         <div class="row justify-content-center hidden-on-sm">
             <div class="main-sec container-fluid">
                 <div class="row justify-content-center align-items-center">
@@ -79,31 +97,10 @@
     <section class="sec1 container-fluid">
         <div id="slides" class="mx-auto">
             <div class="slide showing">
-                <!-- <div class="centerd-wrapper">
-                    <div class="col-12">
-                        <img src="images/logo.png" alt="" class="d-block mx-auto logo-img">
-                        <br>
-                        <img src="images/vasyl.png" alt="" class="d-block mx-auto vasyl-img">
-                    </div>
-                </div> -->
             </div>
             <div class="slide">
-                <!-- <div class="centerd-wrapper">
-                    <div class="col-12">
-                        <img src="images/logo.png" alt="" class="d-block mx-auto logo-img">
-                        <br>
-                        <img src="images/vasyl.png" alt="" class="d-block mx-auto vasyl-img">
-                    </div>
-                </div> -->
             </div>
             <div class="slide">
-                <!-- <div class="centerd-wrapper">
-                    <div class="col-12">
-                        <img src="images/logo.png" alt="" class="d-block mx-auto logo-img">
-                        <br>
-                        <img src="images/vasyl.png" alt="" class="d-block mx-auto vasyl-img">
-                    </div>
-                </div> -->
             </div>
         </div>
         <script src="js/slider.js"></script>
@@ -112,34 +109,36 @@
     <section class="sec2 container-fluid mw992">
 
         <div class="row align-text-center lh-2">
+            <div class="main">
+                <ul class="pgwSlider">
+                    <li>
+                        <img src="images/1.jpg">
+                        <span>Shanghai, China</span>
+                    </li>
 
-            <ul class="pgwSlider">
-                <li><img src="images/slide-1.png" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
-                <li><img src="images/slide-1.png" alt="Montréal, QC, Canada" data-large-src="images/slide-1.png"></li>
-                <li>
-                    <img src="images/slide-1.png">
-                    <span>Shanghai, China</span>
-                </li>
-                <li>
-                    <a href="http://www.nyc.gov" target="_blank">
-                        <img src="images/slide-1.png">
-                    <span>New York, NY, USA</span>
-                    </a>
-                </li>
-            </ul>
+                    <li>
+                        <img src="images/2.jpg">
+                        <span>Shanghai, China</span>
+                    </li>
 
-            <script>
-                $(document).ready(function() {
-                    $('.pgwSlider').pgwSlider();
-                });
-            </script>
+                    <li>
+                        <img src="images/3.png">
+                        <span>Shanghai, China</span>
+                    </li>
 
+                    <li>
+                        <img src="images/4.jpg">
+                        <span>«Носоріг», Збільшена копія гравюри</span>
+                    </li>
+                </ul>
+                
+            </div>
         </div>
         <hr class="text-slicer">
-        <div class="row align-text-center align-items-center lh-2 images-cont ">
+        <div class="row text-justify align-items-center lh-2 images-cont ">
 
-            <div class="col-12 d-flex flex-wrap mx-auto col-md-8 h-100 w-100 text-dark bg-none p-0 order-1 order-md-0">
-                <p class="p-3 mh50vh ">Дорогий глядачу! Тобі надається унікальна техніка ручного гравіювання алмазом по
+            <div class="col-12 mx-auto col-md-8 text-dark bg-none p-0 order-1 order-md-0">
+                <p class="p-3">Дорогий глядачу! Тобі надається унікальна техніка ручного гравіювання алмазом по
                     склу. Не шліфування, не випалювання променем лазера, а саме різьби по склу. Фактично те, чого не
                     може бути!
                     Фізичні властивості матеріалу (скла), які не сумісні з подібною технікою його обробки, – підкорилися
@@ -154,22 +153,28 @@
                 </p>
             </div>
 
-            <blockquote class="col-10 mx-auto col-md-4 h-100 order-0 order-md-1 p-0">
-                <blockquote class="fb-page" data-href="https://www.facebook.com/VasylPilka" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/VasylPilka" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/VasylPilka">Vasyl Pilka</a></blockquote></blockquote>                <!-- <script type="text/javascript">
-                    var TIMEOUT = null;
-
-                    $(window).on('resize', function () {
-                        if (TIMEOUT === null) {
-                            TIMEOUT = window.setTimeout(function () {
-                                TIMEOUT = null;
-                                $('.fb-page').removeClass('fb_iframe_widget fb_iframe_widget_fluid');
-
-                                FB.XFBML.parse();
-                            }, 300);
-                        }
-                    });
-                </script> -->
+            <div class="col-10 mx-auto text-center col-md-4 h-100 order-0 order-md-1 p-0 grayscale100">
+                <div class="fb-page" data-href="https://www.facebook.com/VasylPilka" data-tabs="timeline" data-width=""
+                    data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                    data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/VasylPilka" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/VasylPilka">Vasyl Pilka</a></blockquote>
+                </div>
             </div>
+            <script type="text/javascript">
+                var TIMEOUT = null;
+
+                $(window).on('resize', function () {
+                    if (TIMEOUT === null) {
+                        TIMEOUT = window.setTimeout(function () {
+                            TIMEOUT = null;
+                            $('.fb-page').removeClass('fb_iframe_widget fb_iframe_widget_fluid');
+
+                            FB.XFBML.parse();
+                        }, 300);
+                    }
+                });
+            </script>
         </div>
     </section>
     <section class="sec3 container-fluid mw992">
