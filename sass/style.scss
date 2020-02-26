@@ -86,9 +86,10 @@ iframe {
 }
 
 .text-slicer {
-    max-width: 12em;
+    max-width: 250px;
     margin-top: 2em;
-    padding-bottom: 2em;
+    margin-bottom: 2em;
+    background: gray;
 }
 
 header {
@@ -374,15 +375,9 @@ header {
     }
 
     .images-cont {
-        .bg-none {
-            .col-6 {
-                height: 26vh;
-                background-color: #000;
-                box-shadow: inset 0 0 0 5px white;
-                background: url("../images/slide1.jpg") $bgRepeat;
-                background-position: $bgPos;
-                background-size: cover;
-            }
+        h3 {
+            font-size: 23px;
+            font-weight: bold;
         }
     }
 }
