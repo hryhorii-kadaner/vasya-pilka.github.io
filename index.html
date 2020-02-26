@@ -27,8 +27,8 @@
 
 <body>
     <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&autoLogAppEvents=1&version=v6.0&appId=374281786699723"></script>
-    <header class="container-fluid">
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v6.0&appId=374281786699723&autoLogAppEvents=1"></script>
+<header class="container-fluid">
         <div class="row justify-content-center hidden-on-sm">
             <div class="main-sec container-fluid">
                 <div class="row justify-content-center align-items-center">
@@ -112,9 +112,33 @@
     <section class="sec2 container-fluid mw992">
 
         <div class="row align-text-center lh-2">
-            <div class="col-10 mx-auto col-md-7 mh50vh image-container">
-            </div>
-            <div class="col-10 mx-auto col-md-5 h-100  text-dark bg-none text-justify p-0">
+
+            <ul class="pgwSlider">
+                <li><img src="images/slide-1.png" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
+                <li><img src="images/slide-1.png" alt="Montréal, QC, Canada" data-large-src="images/slide-1.png"></li>
+                <li>
+                    <img src="images/slide-1.png">
+                    <span>Shanghai, China</span>
+                </li>
+                <li>
+                    <a href="http://www.nyc.gov" target="_blank">
+                        <img src="images/slide-1.png">
+                    <span>New York, NY, USA</span>
+                    </a>
+                </li>
+            </ul>
+
+            <script>
+                $(document).ready(function() {
+                    $('.pgwSlider').pgwSlider();
+                });
+            </script>
+
+        </div>
+        <hr class="text-slicer">
+        <div class="row align-text-center align-items-center lh-2 images-cont ">
+
+            <div class="col-12 d-flex flex-wrap mx-auto col-md-8 h-100 w-100 text-dark bg-none p-0 order-1 order-md-0">
                 <p class="p-3 mh50vh ">Дорогий глядачу! Тобі надається унікальна техніка ручного гравіювання алмазом по
                     склу. Не шліфування, не випалювання променем лазера, а саме різьби по склу. Фактично те, чого не
                     може бути!
@@ -129,17 +153,9 @@
                             class="fal fa-long-arrow-right"></i></a>
                 </p>
             </div>
-        </div>
-        <hr class="text-slicer">
-        <div class="row align-text-center align-items-center lh-2 images-cont ">
 
-            <div class="col-12 d-flex flex-wrap mx-auto col-md-8 h-100 w-100 text-dark bg-none p-0 order-1 order-md-0">
-                
-            </div>
-
-            <div class="col-10 mx-auto col-md-4 h-100 order-0 order-md-1 p-0">
-                <div class="fb-page" data-href="https://www.facebook.com/pielkowais" data-tabs="timeline" data-width="800" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
-                <script type="text/javascript">
+            <blockquote class="col-10 mx-auto col-md-4 h-100 order-0 order-md-1 p-0">
+                <blockquote class="fb-page" data-href="https://www.facebook.com/VasylPilka" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/VasylPilka" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/VasylPilka">Vasyl Pilka</a></blockquote></blockquote>                <!-- <script type="text/javascript">
                     var TIMEOUT = null;
 
                     $(window).on('resize', function () {
@@ -152,7 +168,7 @@
                             }, 300);
                         }
                     });
-                </script>
+                </script> -->
             </div>
         </div>
     </section>
