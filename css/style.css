@@ -412,97 +412,19 @@ header .main-sec .centred-top .vasyl-img {
 .sec2 .modal {
   z-index: 99999;
 }
-/* line 348, ../sass/style.scss */
-.sec2 #photos {
-  /* Prevent vertical gaps */
-  line-height: 0;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 0px;
-  -moz-column-count: 2;
-  -moz-column-gap: 0px;
-  column-count: 2;
-  column-gap: 0px;
-}
-/* line 358, ../sass/style.scss */
-.sec2 #photos .relative-image-container {
-  position: relative;
-  width: 100% !important;
-  height: auto !important;
-}
-/* line 363, ../sass/style.scss */
-.sec2 #photos .relative-image-container:hover .centred-text-on-hover {
-  width: 100%;
-}
-/* line 365, ../sass/style.scss */
-.sec2 #photos .relative-image-container:hover .centred-text-on-hover a {
-  opacity: 1;
-  color: white;
-  transition: opacity .3s linear .3s;
-}
-/* line 371, ../sass/style.scss */
-.sec2 #photos .relative-image-container:hover img {
-  transition: filter .3s linear;
-  filter: grayscale(0%);
-}
-/* line 376, ../sass/style.scss */
-.sec2 #photos .relative-image-container .centred-text-on-hover {
-  display: block;
-  position: absolute;
-  height: 100%;
-  width: 0%;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.507) !important;
-  z-index: 99;
-  transition: width .3s linear;
-}
-/* line 386, ../sass/style.scss */
-.sec2 #photos .relative-image-container .centred-text-on-hover a {
-  line-height: 1.7;
-  opacity: 0;
-  color: white;
-  position: absolute;
-  font-size: 20px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-/* line 402, ../sass/style.scss */
-.sec2 #photos img {
-  filter: grayscale(100%);
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-  transition: filter .3s linear;
-}
-@media (max-width: 800px) {
-  /* line 348, ../sass/style.scss */
-  .sec2 #photos {
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
-  }
-}
-@media (max-width: 400px) {
-  /* line 348, ../sass/style.scss */
-  .sec2 #photos {
-    -moz-column-count: 1;
-    -webkit-column-count: 1;
-    column-count: 1;
-  }
-}
-/* line 423, ../sass/style.scss */
+/* line 352, ../sass/style.scss */
 .sec2 .row .image-container {
   background: url("../images/vasya.png") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 429, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 .sec2 .row .button-holder {
   background-color: #fff;
   position: relative;
   box-shadow: inset 0 0 1px black;
 }
-/* line 434, ../sass/style.scss */
+/* line 363, ../sass/style.scss */
 .sec2 .row .button-holder a {
   position: absolute;
   top: 50%;
@@ -510,12 +432,12 @@ header .main-sec .centred-top .vasyl-img {
   transform: translate(-50%, -50%);
 }
 @media screen and (max-width: 460px) {
-  /* line 443, ../sass/style.scss */
+  /* line 372, ../sass/style.scss */
   .sec2 .images-portfolio {
     display: none !important;
   }
 }
-/* line 451, ../sass/style.scss */
+/* line 380, ../sass/style.scss */
 .sec2 .images-cont .bg-none .col-6 {
   height: 26vh;
   background-color: #000;
@@ -525,7 +447,7 @@ header .main-sec .centred-top .vasyl-img {
   background-size: cover;
 }
 
-/* line 465, ../sass/style.scss */
+/* line 394, ../sass/style.scss */
 .to-top {
   z-index: 99;
   position: fixed !important;
@@ -538,7 +460,7 @@ header .main-sec .centred-top .vasyl-img {
   /*выравнивание содержимого элемента по центру */
   animation-fill-mode: both;
 }
-/* line 477, ../sass/style.scss */
+/* line 406, ../sass/style.scss */
 .to-top .btn {
   font-size: 30px;
   width: 50px;
@@ -551,19 +473,19 @@ header .main-sec .centred-top .vasyl-img {
   color: #999999;
   /* цвет текста */
 }
-/* line 493, ../sass/style.scss */
+/* line 422, ../sass/style.scss */
 .to-top .btn:hover {
   box-shadow: 0px 2px 5px gray;
   color: #7e7e7e;
 }
 @media screen and (max-width: 576px) {
-  /* line 465, ../sass/style.scss */
+  /* line 394, ../sass/style.scss */
   .to-top {
     right: 30px;
     /* расстояние от правого края */
     bottom: 20px;
   }
-  /* line 503, ../sass/style.scss */
+  /* line 432, ../sass/style.scss */
   .to-top .btn {
     font-size: 24px;
     width: 40px;
