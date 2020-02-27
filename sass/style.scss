@@ -395,44 +395,40 @@ header {
         height: 100%;
         width: 100%;
         overflow: hidden !important;
-        transition: background .3s linear;
-        // img {
-        //     opacity: 1; //change on hover
-        //     filter: invert(1);
-        //     width: 50px;
-        //     height: 10vh;     
-        //     transition: .3s linear;       
-        // }
+        transition: .3s linear;
+        cursor: pointer;
         .logo-start {
-            position: absolute;
             width: 50%;
             height: 100%;
             opacity: 1; //change on hover
             filter: invert(1);
             background: url("../images/logo-start.png") no-repeat;
             background-position: right;
-            background-size: contain;
+            background-size: 50%;
             position: relative;
-            left: 0%;
-            transition: left .3s linear;
+            left: -50%;  
+            transition: .3s linear;                  
         }
         .logo-end {
-            position: absolute;
             width: 50%;
             height: 100%;
-            background: url("../images/logo-start.png") no-repeat;
-            background-position: left;
-            background-size: contain;
             opacity: 1; //change on hover
             filter: invert(1);
-            background: url("../images/logo-end.png");
+            background: url("../images/logo-end.png") no-repeat;
+            background-position: left;
+            background-size: 50%;
             position: relative;
-            right: 0%;
-            transition: right .7s linear;
+            right: -50%; 
+            transition: .3s linear;          
         }
         &:hover {
             background: rgba(0, 0, 0, 0.342);
-            
+            .logo-start {
+                left: 0%;
+            }
+            .logo-end {
+                right: 0%;
+            }
         }
     }
     .gallerey-heading {
