@@ -18,6 +18,10 @@ $gray : #212529;
     max-width: 480px !important;
 }
 
+a {
+    color: black !important;
+}
+
 iframe {
     width: 100% !important;
 }
@@ -384,8 +388,53 @@ header {
         }
     }
 }
-
 .sec3 {
+    .centerd-img-hover-wrapper {
+        display: inline-flex;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        overflow: hidden !important;
+        transition: background .3s linear;
+        // img {
+        //     opacity: 1; //change on hover
+        //     filter: invert(1);
+        //     width: 50px;
+        //     height: 10vh;     
+        //     transition: .3s linear;       
+        // }
+        .logo-start {
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            opacity: 1; //change on hover
+            filter: invert(1);
+            background: url("../images/logo-start.png") no-repeat;
+            background-position: right;
+            background-size: contain;
+            position: relative;
+            left: 0%;
+            transition: left .3s linear;
+        }
+        .logo-end {
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            background: url("../images/logo-start.png") no-repeat;
+            background-position: left;
+            background-size: contain;
+            opacity: 1; //change on hover
+            filter: invert(1);
+            background: url("../images/logo-end.png");
+            position: relative;
+            right: 0%;
+            transition: right .7s linear;
+        }
+        &:hover {
+            background: rgba(0, 0, 0, 0.342);
+            
+        }
+    }
     .gallerey-heading {
         margin-top: 1em;
         margin-bottom: 2em;
