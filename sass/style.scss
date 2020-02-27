@@ -11,6 +11,7 @@ $imagesBgSize: cover;
 $bgRepeat: no-repeat;
 $bgPos: center center;
 $gray : #212529;
+
 .grayscale100 {
     filter: grayscale(100%) !important;
 }
@@ -508,6 +509,13 @@ header {
 }
 
 .sec4 {
+    .heading {
+        margin-top: 1em;
+        margin-bottom: 2em;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
     img {
         max-width: 100px !important;
     }
