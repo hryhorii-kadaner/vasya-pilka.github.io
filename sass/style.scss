@@ -516,8 +516,19 @@ header {
         font-weight: bold;
         text-align: center;
     }
+    
     img {
         max-width: 100px !important;
+    }
+}
+
+.footer {
+    .footerul {
+        border-left: 2px solid rgba(0, 0, 0, 0.397);
+        padding-left: 1em;
+        @media screen and (max-width:768px){
+            border-left: none;
+        }
     }
 }
 

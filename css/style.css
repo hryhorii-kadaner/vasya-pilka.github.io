@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 5, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,45 +21,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -600,25 +600,37 @@ header .main-sec .centred-top .vasyl-img {
   font-weight: bold;
   text-align: center;
 }
-/* line 519, ../sass/style.scss */
+/* line 520, ../sass/style.scss */
 .sec4 img {
   max-width: 100px !important;
 }
 
 /* line 526, ../sass/style.scss */
+.footer .footerul {
+  border-left: 2px solid rgba(0, 0, 0, 0.397);
+  padding-left: 1em;
+}
+@media screen and (max-width: 768px) {
+  /* line 526, ../sass/style.scss */
+  .footer .footerul {
+    border-left: none;
+  }
+}
+
+/* line 537, ../sass/style.scss */
 .to-top {
   z-index: 99;
   position: fixed !important;
-  /* фиксированная позиция */
+  /* ╤Д╨╕╨║╤Б╨╕╤А╨╛╨▓╨░╨╜╨╜╨░╤П ╨┐╨╛╨╖╨╕╤Ж╨╕╤П */
   right: 80px;
-  /* расстояние от правого края */
+  /* ╤А╨░╤Б╤Б╤В╨╛╤П╨╜╨╕╨╡ ╨╛╤В ╨┐╤А╨░╨▓╨╛╨│╨╛ ╨║╤А╨░╤П */
   bottom: 60px;
-  /* расстояние от нижнего края */
+  /* ╤А╨░╤Б╤Б╤В╨╛╤П╨╜╨╕╨╡ ╨╛╤В ╨╜╨╕╨╢╨╜╨╡╨│╨╛ ╨║╤А╨░╤П */
   text-align: center;
-  /*выравнивание содержимого элемента по центру */
+  /*╨▓╤Л╤А╨░╨▓╨╜╨╕╨▓╨░╨╜╨╕╨╡ ╤Б╨╛╨┤╨╡╤А╨╢╨╕╨╝╨╛╨│╨╛ ╤Н╨╗╨╡╨╝╨╡╨╜╤В╨░ ╨┐╨╛ ╤Ж╨╡╨╜╤В╤А╤Г */
   animation-fill-mode: both;
 }
-/* line 538, ../sass/style.scss */
+/* line 549, ../sass/style.scss */
 .to-top .btn {
   font-size: 30px;
   width: 50px;
@@ -629,21 +641,21 @@ header .main-sec .centred-top .vasyl-img {
   box-shadow: 0px 4px 5px gray;
   padding: 0;
   color: #999999;
-  /* цвет текста */
+  /* ╤Ж╨▓╨╡╤В ╤В╨╡╨║╤Б╤В╨░ */
 }
-/* line 554, ../sass/style.scss */
+/* line 565, ../sass/style.scss */
 .to-top .btn:hover {
   box-shadow: 0px 2px 5px gray;
   color: #7e7e7e;
 }
 @media screen and (max-width: 576px) {
-  /* line 526, ../sass/style.scss */
+  /* line 537, ../sass/style.scss */
   .to-top {
     right: 30px;
-    /* расстояние от правого края */
+    /* ╤А╨░╤Б╤Б╤В╨╛╤П╨╜╨╕╨╡ ╨╛╤В ╨┐╤А╨░╨▓╨╛╨│╨╛ ╨║╤А╨░╤П */
     bottom: 20px;
   }
-  /* line 564, ../sass/style.scss */
+  /* line 575, ../sass/style.scss */
   .to-top .btn {
     font-size: 24px;
     width: 40px;
