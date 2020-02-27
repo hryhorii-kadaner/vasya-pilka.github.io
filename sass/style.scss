@@ -22,6 +22,19 @@ a {
     color: black !important;
 }
 
+footer .justify-content-center .col-12 ul li a:after {
+    position: relative;
+    top: 5px;
+    content: "";
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 2px;
+    width: 0%;
+    background: #000;
+    transition: width .3s linear;
+}
+
 iframe {
     width: 100% !important;
 }
@@ -97,6 +110,13 @@ iframe {
     margin-top: 2em;
     margin-bottom: 2em;
     background: gray;
+}
+
+.footer {
+    .socials {
+        font-size: 40px !important;
+        
+    }
 }
 
 header {
@@ -488,6 +508,12 @@ header {
         .img-placeholder-world-of-glass {
             background: url("../images/world-of-glass.jpg") $bgRepeat;
         }
+    }
+}
+
+.sec4 {
+    img {
+        max-width: 100px !important;
     }
 }
 
