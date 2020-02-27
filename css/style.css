@@ -485,42 +485,48 @@ header .main-sec .centred-top .vasyl-img {
   height: 100%;
   width: 100%;
   overflow: hidden !important;
-  transition: background .3s linear;
+  transition: .3s linear;
+  cursor: pointer;
 }
-/* line 426, ../sass/style.scss */
+/* line 420, ../sass/style.scss */
 .sec3 .centerd-img-hover-wrapper .logo-start {
-  position: absolute;
   width: 50%;
   height: 100%;
   opacity: 1;
   filter: invert(1);
   background: url("../images/logo-start.png") no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: 50%;
   position: relative;
-  left: 0%;
-  transition: left .3s linear;
+  left: -50%;
+  transition: .3s linear;
 }
-/* line 439, ../sass/style.scss */
+/* line 432, ../sass/style.scss */
 .sec3 .centerd-img-hover-wrapper .logo-end {
-  position: absolute;
   width: 50%;
   height: 100%;
-  background: url("../images/logo-start.png") no-repeat;
-  background-position: left;
-  background-size: contain;
   opacity: 1;
   filter: invert(1);
-  background: url("../images/logo-end.png");
+  background: url("../images/logo-end.png") no-repeat;
+  background-position: left;
+  background-size: 50%;
   position: relative;
-  right: 0%;
-  transition: right .7s linear;
+  right: -50%;
+  transition: .3s linear;
 }
-/* line 453, ../sass/style.scss */
+/* line 444, ../sass/style.scss */
 .sec3 .centerd-img-hover-wrapper:hover {
   background: rgba(0, 0, 0, 0.342);
 }
-/* line 458, ../sass/style.scss */
+/* line 446, ../sass/style.scss */
+.sec3 .centerd-img-hover-wrapper:hover .logo-start {
+  left: 0%;
+}
+/* line 449, ../sass/style.scss */
+.sec3 .centerd-img-hover-wrapper:hover .logo-end {
+  right: 0%;
+}
+/* line 454, ../sass/style.scss */
 .sec3 .gallerey-heading {
   margin-top: 1em;
   margin-bottom: 2em;
@@ -528,18 +534,18 @@ header .main-sec .centred-top .vasyl-img {
   font-weight: bold;
   text-align: center;
 }
-/* line 465, ../sass/style.scss */
+/* line 461, ../sass/style.scss */
 .sec3 .img-placeholder {
   background-position: center center !important;
   background-size: cover !important;
 }
-/* line 470, ../sass/style.scss */
+/* line 466, ../sass/style.scss */
 .sec3 .row h3 {
   width: max-content;
   font-weight: bold;
   font-size: 19px;
 }
-/* line 474, ../sass/style.scss */
+/* line 470, ../sass/style.scss */
 .sec3 .row h3:after {
   display: block;
   content: "";
@@ -549,49 +555,49 @@ header .main-sec .centred-top .vasyl-img {
   margin-top: 5px;
   background: rgba(0, 0, 0, 0.377);
 }
-/* line 484, ../sass/style.scss */
+/* line 480, ../sass/style.scss */
 .sec3 .row .img-placeholder-architecture {
   background: url("../images/architecture.jpg") no-repeat;
 }
-/* line 487, ../sass/style.scss */
+/* line 483, ../sass/style.scss */
 .sec3 .row .img-placeholder-exhibition {
   background: url("../images/exhibition.jpg") no-repeat;
 }
-/* line 490, ../sass/style.scss */
+/* line 486, ../sass/style.scss */
 .sec3 .row .img-placeholder-faith {
   background: url("../images/faith.jpg") no-repeat;
 }
-/* line 493, ../sass/style.scss */
+/* line 489, ../sass/style.scss */
 .sec3 .row .img-placeholder-spirituality {
   background: url("../images/spirituality.jpg") no-repeat;
 }
-/* line 496, ../sass/style.scss */
+/* line 492, ../sass/style.scss */
 .sec3 .row .img-placeholder-at-work {
   background: url("../images/at-work.jpg") no-repeat;
 }
-/* line 499, ../sass/style.scss */
+/* line 495, ../sass/style.scss */
 .sec3 .row .img-placeholder-colorful-ukraine {
   background: url("../images/3.png") no-repeat;
 }
-/* line 502, ../sass/style.scss */
+/* line 498, ../sass/style.scss */
 .sec3 .row .img-placeholder-works-of-genious {
   background: url("../images/works-of-genious.jpg") no-repeat;
 }
-/* line 505, ../sass/style.scss */
+/* line 501, ../sass/style.scss */
 .sec3 .row .img-placeholder-beautiful-world {
   background: url("../images/beautiful-world.jpg") no-repeat;
 }
-/* line 508, ../sass/style.scss */
+/* line 504, ../sass/style.scss */
 .sec3 .row .img-placeholder-world-of-glass {
   background: url("../images/world-of-glass.jpg") no-repeat;
 }
 
-/* line 515, ../sass/style.scss */
+/* line 511, ../sass/style.scss */
 .sec4 img {
   max-width: 100px !important;
 }
 
-/* line 522, ../sass/style.scss */
+/* line 518, ../sass/style.scss */
 .to-top {
   z-index: 99;
   position: fixed !important;
@@ -604,7 +610,7 @@ header .main-sec .centred-top .vasyl-img {
   /*выравнивание содержимого элемента по центру */
   animation-fill-mode: both;
 }
-/* line 534, ../sass/style.scss */
+/* line 530, ../sass/style.scss */
 .to-top .btn {
   font-size: 30px;
   width: 50px;
@@ -617,19 +623,19 @@ header .main-sec .centred-top .vasyl-img {
   color: #999999;
   /* цвет текста */
 }
-/* line 550, ../sass/style.scss */
+/* line 546, ../sass/style.scss */
 .to-top .btn:hover {
   box-shadow: 0px 2px 5px gray;
   color: #7e7e7e;
 }
 @media screen and (max-width: 576px) {
-  /* line 522, ../sass/style.scss */
+  /* line 518, ../sass/style.scss */
   .to-top {
     right: 30px;
     /* расстояние от правого края */
     bottom: 20px;
   }
-  /* line 560, ../sass/style.scss */
+  /* line 556, ../sass/style.scss */
   .to-top .btn {
     font-size: 24px;
     width: 40px;
