@@ -137,27 +137,32 @@ iframe {
   min-height: 25vh !important;
 }
 
-/* line 68, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
+.mh30vh {
+  min-height: 30vh !important;
+}
+
+/* line 71, ../sass/style.scss */
 .mh50vh {
   min-height: 50vh !important;
 }
 
-/* line 72, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .h25vh {
   height: 25vh !important;
 }
 
-/* line 78, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .btn:focus, .btn:active {
   box-shadow: none !important;
 }
 
-/* line 84, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .lh-2 {
   line-height: 1.5;
 }
 
-/* line 88, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .text-slicer {
   max-width: 250px;
   margin-top: 2em;
@@ -165,7 +170,7 @@ iframe {
   background: gray;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 header {
   position: fixed;
   top: 0;
@@ -176,23 +181,23 @@ header {
   padding: 0.25em;
   z-index: 99999;
 }
-/* line 107, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 header .justify-content-center .col-12 ul {
   display: flex;
   justify-content: space-around;
   max-width: 768px !important;
 }
-/* line 112, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 header .justify-content-center .col-12 ul li {
   text-align: center;
 }
-/* line 115, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 header .justify-content-center .col-12 ul li a {
   font-size: 20px;
   color: black;
   text-decoration: none;
 }
-/* line 120, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 header .justify-content-center .col-12 ul li a:after {
   position: relative;
   top: 5px;
@@ -205,32 +210,32 @@ header .justify-content-center .col-12 ul li a:after {
   background: #000;
   transition: width .3s linear;
 }
-/* line 133, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 header .justify-content-center .col-12 ul li a:hover:after {
   width: 100%;
 }
-/* line 143, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 header .main-sec {
   position: relative;
   min-height: 10vh;
 }
-/* line 147, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 header .main-sec .centred-top {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 153, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 header .main-sec .centred-top .logo-img {
   max-width: 100px;
 }
-/* line 157, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 header .main-sec .centred-top .vasyl-img {
   max-width: 140px;
 }
 
-/* line 165, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 #menuShower {
   display: none;
   position: absolute;
@@ -238,7 +243,7 @@ header .main-sec .centred-top .vasyl-img {
   font-size: 25px;
 }
 @media screen and (max-width: 768px) {
-  /* line 165, ../sass/style.scss */
+  /* line 168, ../sass/style.scss */
   #menuShower {
     display: block;
     left: unset;
@@ -246,13 +251,13 @@ header .main-sec .centred-top .vasyl-img {
   }
 }
 
-/* line 179, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 #menu {
   transition: .3 linear !important;
   transition: width .3 linear !important;
 }
 
-/* line 184, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .menuOnClick {
   position: fixed;
   top: 0;
@@ -262,7 +267,7 @@ header .main-sec .centred-top .vasyl-img {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 99999;
 }
-/* line 194, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .menuOnClick .main-content {
   text-align: center;
   position: absolute;
@@ -276,45 +281,45 @@ header .main-sec .centred-top .vasyl-img {
   transition: width .3 linear !important;
 }
 @media screen and (max-width: 768px) {
-  /* line 194, ../sass/style.scss */
+  /* line 197, ../sass/style.scss */
   .menuOnClick .main-content {
     max-width: 100% !important;
   }
 }
-/* line 210, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .menuOnClick .main-content .closeBtn {
   position: absolute;
   right: 0;
   top: 0;
   font-size: 30px;
 }
-/* line 217, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 .menuOnClick .main-content .menu-title {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 1em;
 }
-/* line 223, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 .menuOnClick .main-content .menu-img {
   margin-top: 2em;
   width: 100px;
 }
-/* line 228, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .menuOnClick .main-content .menu-links {
   margin-top: 2em;
 }
-/* line 232, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 .menuOnClick .main-content .menu-links ul li {
   margin-top: 2em;
 }
-/* line 235, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 .menuOnClick .main-content .menu-links ul li a {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   color: black;
 }
-/* line 241, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 .menuOnClick .main-content .menu-links ul li a:after {
   content: "";
   display: block;
@@ -326,29 +331,29 @@ header .main-sec .centred-top .vasyl-img {
   width: 0px;
   transition: width .3s linear;
 }
-/* line 253, ../sass/style.scss */
+/* line 256, ../sass/style.scss */
 .menuOnClick .main-content .menu-links ul li a:hover:after {
   width: 80px;
 }
 
-/* line 267, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 .container-fluid .row .main-content .btn {
   font-size: 30px;
   color: #646464 !important;
 }
 
-/* line 276, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 .sec1 {
   padding: 0;
   margin-top: 25vh;
 }
 @media screen and (max-width: 768px) {
-  /* line 276, ../sass/style.scss */
+  /* line 279, ../sass/style.scss */
   .sec1 {
     margin-top: 0px !important;
   }
 }
-/* line 284, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 .sec1 #slides {
   position: relative;
   margin-top: 100px;
@@ -358,12 +363,12 @@ header .main-sec .centred-top .vasyl-img {
   transition: width .3s linear;
 }
 @media screen and (max-width: 768px) {
-  /* line 284, ../sass/style.scss */
+  /* line 287, ../sass/style.scss */
   .sec1 #slides {
     width: 100%;
   }
 }
-/* line 296, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 .sec1 #slides .slide {
   position: absolute;
   width: 100%;
@@ -372,65 +377,65 @@ header .main-sec .centred-top .vasyl-img {
   opacity: 0;
   transition: opacity .3s linear;
 }
-/* line 305, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 .sec1 #slides .showing {
   opacity: 1;
   z-index: 10;
 }
-/* line 310, ../sass/style.scss */
+/* line 313, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(1) {
   background: url("../images/slide-1.png") no-repeat;
   background-size: contain;
   background-position: center center;
 }
 @media screen and (max-width: 768px) {
-  /* line 310, ../sass/style.scss */
+  /* line 313, ../sass/style.scss */
   .sec1 #slides .slide:nth-of-type(1) {
     background-size: cover;
   }
 }
-/* line 320, ../sass/style.scss */
+/* line 323, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(2) {
   background: url("../images/slide-2.png") no-repeat;
   background-size: contain;
   background-position: center center;
 }
 @media screen and (max-width: 768px) {
-  /* line 320, ../sass/style.scss */
+  /* line 323, ../sass/style.scss */
   .sec1 #slides .slide:nth-of-type(2) {
     background-size: cover;
   }
 }
-/* line 331, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(3) {
   background: url("../images/slide-1-1.png") no-repeat;
   background-size: contain;
   background-position: center center;
 }
 @media screen and (max-width: 768px) {
-  /* line 331, ../sass/style.scss */
+  /* line 334, ../sass/style.scss */
   .sec1 #slides .slide:nth-of-type(3) {
     background-size: cover;
   }
 }
 
-/* line 345, ../sass/style.scss */
+/* line 348, ../sass/style.scss */
 .sec2 .modal {
   z-index: 99999;
 }
-/* line 351, ../sass/style.scss */
+/* line 354, ../sass/style.scss */
 .sec2 .row .image-container {
   background: url("../images/vasya.png") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 357, ../sass/style.scss */
+/* line 360, ../sass/style.scss */
 .sec2 .row .button-holder {
   background-color: #fff;
   position: relative;
   box-shadow: inset 0 0 1px black;
 }
-/* line 362, ../sass/style.scss */
+/* line 365, ../sass/style.scss */
 .sec2 .row .button-holder a {
   position: absolute;
   top: 50%;
@@ -438,18 +443,84 @@ header .main-sec .centred-top .vasyl-img {
   transform: translate(-50%, -50%);
 }
 @media screen and (max-width: 460px) {
-  /* line 371, ../sass/style.scss */
+  /* line 374, ../sass/style.scss */
   .sec2 .images-portfolio {
     display: none !important;
   }
 }
-/* line 378, ../sass/style.scss */
+/* line 381, ../sass/style.scss */
 .sec2 .images-cont h3 {
   font-size: 23px;
   font-weight: bold;
 }
 
-/* line 387, ../sass/style.scss */
+/* line 389, ../sass/style.scss */
+.sec3 .gallerey-heading {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 396, ../sass/style.scss */
+.sec3 .img-placeholder {
+  background-position: center center !important;
+  background-size: cover !important;
+}
+/* line 401, ../sass/style.scss */
+.sec3 .row h3 {
+  width: max-content;
+  font-weight: bold;
+  font-size: 19px;
+}
+/* line 405, ../sass/style.scss */
+.sec3 .row h3:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 100%;
+  margin-bottom: 7px;
+  margin-top: 5px;
+  background: rgba(0, 0, 0, 0.377);
+}
+/* line 415, ../sass/style.scss */
+.sec3 .row .img-placeholder-architecture {
+  background: url("../images/architecture.jpg") no-repeat;
+}
+/* line 418, ../sass/style.scss */
+.sec3 .row .img-placeholder-exhibition {
+  background: url("../images/exhibition.jpg") no-repeat;
+}
+/* line 421, ../sass/style.scss */
+.sec3 .row .img-placeholder-faith {
+  background: url("../images/faith.jpg") no-repeat;
+}
+/* line 424, ../sass/style.scss */
+.sec3 .row .img-placeholder-spirituality {
+  background: url("../images/spirituality.jpg") no-repeat;
+}
+/* line 427, ../sass/style.scss */
+.sec3 .row .img-placeholder-at-work {
+  background: url("../images/at-work.jpg") no-repeat;
+}
+/* line 430, ../sass/style.scss */
+.sec3 .row .img-placeholder-colorful-ukraine {
+  background: url("../images/3.png") no-repeat;
+}
+/* line 433, ../sass/style.scss */
+.sec3 .row .img-placeholder-works-of-genious {
+  background: url("../images/works-of-genious.jpg") no-repeat;
+}
+/* line 436, ../sass/style.scss */
+.sec3 .row .img-placeholder-beautiful-world {
+  background: url("../images/beautiful-world.jpg") no-repeat;
+}
+/* line 439, ../sass/style.scss */
+.sec3 .row .img-placeholder-world-of-glass {
+  background: url("../images/world-of-glass.jpg") no-repeat;
+}
+
+/* line 447, ../sass/style.scss */
 .to-top {
   z-index: 99;
   position: fixed !important;
@@ -462,7 +533,7 @@ header .main-sec .centred-top .vasyl-img {
   /*выравнивание содержимого элемента по центру */
   animation-fill-mode: both;
 }
-/* line 399, ../sass/style.scss */
+/* line 459, ../sass/style.scss */
 .to-top .btn {
   font-size: 30px;
   width: 50px;
@@ -475,19 +546,19 @@ header .main-sec .centred-top .vasyl-img {
   color: #999999;
   /* цвет текста */
 }
-/* line 415, ../sass/style.scss */
+/* line 475, ../sass/style.scss */
 .to-top .btn:hover {
   box-shadow: 0px 2px 5px gray;
   color: #7e7e7e;
 }
 @media screen and (max-width: 576px) {
-  /* line 387, ../sass/style.scss */
+  /* line 447, ../sass/style.scss */
   .to-top {
     right: 30px;
     /* расстояние от правого края */
     bottom: 20px;
   }
-  /* line 425, ../sass/style.scss */
+  /* line 485, ../sass/style.scss */
   .to-top .btn {
     font-size: 24px;
     width: 40px;

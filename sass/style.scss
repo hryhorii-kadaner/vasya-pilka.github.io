@@ -64,6 +64,9 @@ iframe {
 .mh25vh {
     min-height: 25vh !important;
 }
+.mh30vh {
+    min-height: 30vh !important;
+}
 
 .mh50vh {
     min-height: 50vh !important;
@@ -378,6 +381,63 @@ header {
         h3 {
             font-size: 23px;
             font-weight: bold;
+        }
+    }
+}
+
+.sec3 {
+    .gallerey-heading {
+        margin-top: 1em;
+        margin-bottom: 2em;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .img-placeholder {
+        background-position: $bgPos !important;
+        background-size: $imagesBgSize !important;
+    }
+    .row {
+        h3 {
+            width: max-content;
+            font-weight: bold;
+            font-size: 19px;
+            &:after {
+                display: block;
+                content: "";
+                height: 2px;
+                width: 100%;
+                margin-bottom: 7px;
+                margin-top: 5px;
+                background: rgba(0, 0, 0, 0.377);
+            }
+        }
+        .img-placeholder-architecture {
+            background: url("../images/architecture.jpg") $bgRepeat;
+        }
+        .img-placeholder-exhibition {
+            background: url("../images/exhibition.jpg") $bgRepeat;
+        }
+        .img-placeholder-faith {
+            background: url("../images/faith.jpg") $bgRepeat;
+        }
+        .img-placeholder-spirituality {
+            background: url("../images/spirituality.jpg") $bgRepeat;
+        }
+        .img-placeholder-at-work {
+            background: url("../images/at-work.jpg") $bgRepeat;
+        }
+        .img-placeholder-colorful-ukraine {
+            background: url("../images/3.png") $bgRepeat;
+        }
+        .img-placeholder-works-of-genious {
+            background: url("../images/works-of-genious.jpg") $bgRepeat;
+        }
+        .img-placeholder-beautiful-world {
+            background: url("../images/beautiful-world.jpg") $bgRepeat;
+        }
+        .img-placeholder-world-of-glass {
+            background: url("../images/world-of-glass.jpg") $bgRepeat;
         }
     }
 }
