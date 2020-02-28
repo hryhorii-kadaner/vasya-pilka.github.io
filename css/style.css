@@ -408,7 +408,7 @@ header .main-sec .centred-top .vasyl-img {
 }
 /* line 338, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(1) {
-  background: url("../images/slider2.png") no-repeat;
+  background: url("../images/slider2.jpg") no-repeat;
   background-size: contain;
   background-position: center center;
 }
@@ -420,7 +420,7 @@ header .main-sec .centred-top .vasyl-img {
 }
 /* line 348, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(2) {
-  background: url("../images/slider3.png") no-repeat;
+  background: url("../images/slider3.jpg") no-repeat;
   background-size: contain;
   background-position: center center;
 }
@@ -432,7 +432,7 @@ header .main-sec .centred-top .vasyl-img {
 }
 /* line 359, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(3) {
-  background: url("../images/slider4.png") no-repeat;
+  background: url("../images/slider4.jpg") no-repeat;
   background-size: contain;
   background-position: center center;
 }
