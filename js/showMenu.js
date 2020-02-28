@@ -43,7 +43,6 @@ window.addEventListener('scroll', function() {
             topButton.setAttribute("hidden","");
         }, 300);
           
-        console.log("Расстояние от шапки " + pageYOffset + " px");        
-    }
-    console.log("Расстояние от шапки " + pageYOffset + " px");    
+        // console.log("Расстояние от шапки " + pageYOffset + " px");        
+    }    
 });

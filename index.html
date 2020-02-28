@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="pgwCss/pgwslider.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/smoothScrillongToSections.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
     <script src="js/pgwslider.min.js"></script>
     <script>
@@ -46,7 +47,7 @@
     <script async defer crossorigin="anonymous"
         src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v6.0&appId=374281786699723&autoLogAppEvents=1">
         </script>
-    <header class="container-fluid">
+    <header class="container-fluid" id="navigMenu">
         <div class="row justify-content-center hidden-on-sm">
             <div class="main-sec container-fluid">
                 <div class="row justify-content-center align-items-center">
@@ -59,9 +60,9 @@
             </div>
             <div class="col-12 text-center mt-5 mb-4">
                 <ul class="mx-auto mt-4">
-                    <li><a href="#">Портфоліо</a></li>
-                    <li><a href="#">Галерея</a></li>
-                    <li><a href="#">Контакти</a></li>
+                    <li><a href="#portfolio" id="toPortfolioFirst">Портфоліо</a></li>
+                    <li><a href="#gallerey" id="toGallereyFirst">Галерея</a></li>
+                    <li><a href="#contacts" id="toContactsFirst">Контакти</a></li>
                 </ul>
             </div>
         </div>
@@ -84,9 +85,9 @@
                 <hr class="text-slicer">
                 <div class="menu-links mt-5">
                     <ul>
-                        <li><a href="#">Портфоліо</a></li>
-                        <li><a href="#">Галерея</a></li>
-                        <li><a href="#">Контакти</a></li>
+                        <li><a href="#portfolio" id="toPortfolioSecond">Портфоліо</a></li>
+                        <li><a href="#gallerey" id="toGallereySecond">Галерея</a></li>
+                        <li><a href="#contacts" id="toContactsSecond">Контакти</a></li>
                     </ul>
                 </div>
             </div>
@@ -106,8 +107,7 @@
         <script src="js/slider.js"></script>
     </section>
     <hr class="text-slicer">
-    <section class="sec2 container-fluid mw992">
-
+    <section class="sec2 container-fluid mw992" id="portfolio">
         <div class="row align-text-center lh-2">
             <div class="main grayscale100">
                 <ul class="pgwSlider">
@@ -186,7 +186,7 @@
             </script>
         </div>
     </section>
-    <section class="sec3 container-fluid mw768 grayscale100 lh-2">
+    <section class="sec3 container-fluid mw768 grayscale100 lh-2" id="gallerey">
         <div class="col-12">
             <h2 class="gallerey-heading">Галерея</h2>
         </div>
@@ -369,7 +369,7 @@
     <hr class="text-slicer">
     <br>
     <br>
-    <footer class="footer text-center text-md-left">
+    <footer class="footer text-center text-md-left" id="contacts">
         <div class="container">
             <div class="row m-0">
                 <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 offset-xl-2 offset-lg-1  pl-0 pr-0">
