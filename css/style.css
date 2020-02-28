@@ -412,54 +412,36 @@ header .main-sec .centred-top .vasyl-img {
   background-size: contain;
   background-position: center center;
 }
-@media screen and (max-width: 768px) {
-  /* line 338, ../sass/style.scss */
-  .sec1 #slides .slide:nth-of-type(1) {
-    background-size: cover;
-  }
-}
-/* line 348, ../sass/style.scss */
+/* line 346, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(2) {
   background: url("../images/slider3.jpg") no-repeat;
   background-size: contain;
   background-position: center center;
 }
-@media screen and (max-width: 768px) {
-  /* line 348, ../sass/style.scss */
-  .sec1 #slides .slide:nth-of-type(2) {
-    background-size: cover;
-  }
-}
-/* line 359, ../sass/style.scss */
+/* line 355, ../sass/style.scss */
 .sec1 #slides .slide:nth-of-type(3) {
   background: url("../images/slider4.jpg") no-repeat;
   background-size: contain;
   background-position: center center;
 }
-@media screen and (max-width: 768px) {
-  /* line 359, ../sass/style.scss */
-  .sec1 #slides .slide:nth-of-type(3) {
-    background-size: cover;
-  }
-}
 
-/* line 373, ../sass/style.scss */
+/* line 367, ../sass/style.scss */
 .sec2 .modal {
   z-index: 99999;
 }
-/* line 379, ../sass/style.scss */
+/* line 373, ../sass/style.scss */
 .sec2 .row .image-container {
   background: url("../images/vasya.png") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 385, ../sass/style.scss */
+/* line 379, ../sass/style.scss */
 .sec2 .row .button-holder {
   background-color: #fff;
   position: relative;
   box-shadow: inset 0 0 1px black;
 }
-/* line 390, ../sass/style.scss */
+/* line 384, ../sass/style.scss */
 .sec2 .row .button-holder a {
   position: absolute;
   top: 50%;
@@ -467,18 +449,18 @@ header .main-sec .centred-top .vasyl-img {
   transform: translate(-50%, -50%);
 }
 @media screen and (max-width: 460px) {
-  /* line 399, ../sass/style.scss */
+  /* line 393, ../sass/style.scss */
   .sec2 .images-portfolio {
     display: none !important;
   }
 }
-/* line 406, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 .sec2 .images-cont h3 {
   font-size: 23px;
   font-weight: bold;
 }
 
-/* line 413, ../sass/style.scss */
+/* line 407, ../sass/style.scss */
 .sec3 .centerd-img-hover-wrapper {
   display: inline-flex;
   position: absolute;
@@ -488,7 +470,7 @@ header .main-sec .centred-top .vasyl-img {
   transition: .3s linear;
   cursor: pointer;
 }
-/* line 421, ../sass/style.scss */
+/* line 415, ../sass/style.scss */
 .sec3 .centerd-img-hover-wrapper .logo-start {
   width: 50%;
   height: 100%;
@@ -501,7 +483,7 @@ header .main-sec .centred-top .vasyl-img {
   left: -50%;
   transition: .3s linear;
 }
-/* line 433, ../sass/style.scss */
+/* line 427, ../sass/style.scss */
 .sec3 .centerd-img-hover-wrapper .logo-end {
   width: 50%;
   height: 100%;
@@ -514,19 +496,19 @@ header .main-sec .centred-top .vasyl-img {
   right: -50%;
   transition: .3s linear;
 }
-/* line 445, ../sass/style.scss */
+/* line 439, ../sass/style.scss */
 .sec3 .centerd-img-hover-wrapper:hover {
   background: rgba(0, 0, 0, 0.342);
 }
-/* line 447, ../sass/style.scss */
+/* line 441, ../sass/style.scss */
 .sec3 .centerd-img-hover-wrapper:hover .logo-start {
   left: 0%;
 }
-/* line 450, ../sass/style.scss */
+/* line 444, ../sass/style.scss */
 .sec3 .centerd-img-hover-wrapper:hover .logo-end {
   right: 0%;
 }
-/* line 455, ../sass/style.scss */
+/* line 449, ../sass/style.scss */
 .sec3 .gallerey-heading {
   margin-top: 1em;
   margin-bottom: 2em;
@@ -534,18 +516,18 @@ header .main-sec .centred-top .vasyl-img {
   font-weight: bold;
   text-align: center;
 }
-/* line 462, ../sass/style.scss */
+/* line 456, ../sass/style.scss */
 .sec3 .img-placeholder {
   background-position: center center !important;
   background-size: cover !important;
 }
-/* line 467, ../sass/style.scss */
+/* line 461, ../sass/style.scss */
 .sec3 .row h3 {
   width: max-content;
   font-weight: bold;
   font-size: 19px;
 }
-/* line 471, ../sass/style.scss */
+/* line 465, ../sass/style.scss */
 .sec3 .row h3:after {
   display: block;
   content: "";
@@ -555,44 +537,44 @@ header .main-sec .centred-top .vasyl-img {
   margin-top: 5px;
   background: rgba(0, 0, 0, 0.377);
 }
-/* line 481, ../sass/style.scss */
+/* line 475, ../sass/style.scss */
 .sec3 .row .img-placeholder-architecture {
   background: url("../images/architecture.jpg") no-repeat;
 }
-/* line 484, ../sass/style.scss */
+/* line 478, ../sass/style.scss */
 .sec3 .row .img-placeholder-exhibition {
   background: url("../images/exhibition.jpg") no-repeat;
 }
-/* line 487, ../sass/style.scss */
+/* line 481, ../sass/style.scss */
 .sec3 .row .img-placeholder-faith {
   background: url("../images/faith.jpg") no-repeat;
 }
-/* line 490, ../sass/style.scss */
+/* line 484, ../sass/style.scss */
 .sec3 .row .img-placeholder-spirituality {
   background: url("../images/spirituality.jpg") no-repeat;
 }
-/* line 493, ../sass/style.scss */
+/* line 487, ../sass/style.scss */
 .sec3 .row .img-placeholder-at-work {
   background: url("../images/at-work.jpg") no-repeat;
 }
-/* line 496, ../sass/style.scss */
+/* line 490, ../sass/style.scss */
 .sec3 .row .img-placeholder-colorful-ukraine {
   background: url("../images/taras.png") no-repeat;
 }
-/* line 499, ../sass/style.scss */
+/* line 493, ../sass/style.scss */
 .sec3 .row .img-placeholder-works-of-genious {
   background: url("../images/works-of-genious.jpg") no-repeat;
 }
-/* line 502, ../sass/style.scss */
+/* line 496, ../sass/style.scss */
 .sec3 .row .img-placeholder-beautiful-world {
   background: url("../images/beautiful-world.jpg") no-repeat;
 }
-/* line 505, ../sass/style.scss */
+/* line 499, ../sass/style.scss */
 .sec3 .row .img-placeholder-world-of-glass {
   background: url("../images/world-of-glass.jpg") no-repeat;
 }
 
-/* line 512, ../sass/style.scss */
+/* line 506, ../sass/style.scss */
 .sec4 .heading {
   margin-top: 1em;
   margin-bottom: 2em;
@@ -600,24 +582,24 @@ header .main-sec .centred-top .vasyl-img {
   font-weight: bold;
   text-align: center;
 }
-/* line 520, ../sass/style.scss */
+/* line 514, ../sass/style.scss */
 .sec4 img {
   max-width: 100px !important;
 }
 
-/* line 526, ../sass/style.scss */
+/* line 520, ../sass/style.scss */
 .footer .footerul {
   border-left: 2px solid rgba(0, 0, 0, 0.397);
   padding-left: 1em;
 }
 @media screen and (max-width: 768px) {
-  /* line 526, ../sass/style.scss */
+  /* line 520, ../sass/style.scss */
   .footer .footerul {
     border-left: none;
   }
 }
 
-/* line 537, ../sass/style.scss */
+/* line 531, ../sass/style.scss */
 .to-top {
   z-index: 99;
   position: fixed !important;
@@ -630,7 +612,7 @@ header .main-sec .centred-top .vasyl-img {
   /*выравнивание содержимого элемента по центру */
   animation-fill-mode: both;
 }
-/* line 549, ../sass/style.scss */
+/* line 543, ../sass/style.scss */
 .to-top .btn {
   font-size: 30px;
   width: 50px;
@@ -643,19 +625,19 @@ header .main-sec .centred-top .vasyl-img {
   color: #999999;
   /* цвет текста */
 }
-/* line 565, ../sass/style.scss */
+/* line 559, ../sass/style.scss */
 .to-top .btn:hover {
   box-shadow: 0px 2px 5px gray;
   color: #7e7e7e;
 }
 @media screen and (max-width: 576px) {
-  /* line 537, ../sass/style.scss */
+  /* line 531, ../sass/style.scss */
   .to-top {
     right: 30px;
     /* расстояние от правого края */
     bottom: 20px;
   }
-  /* line 575, ../sass/style.scss */
+  /* line 569, ../sass/style.scss */
   .to-top .btn {
     font-size: 24px;
     width: 40px;
