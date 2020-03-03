@@ -1,0 +1,68 @@
+@import "compass/reset";
+
+
+// My styles
+* {
+    font-family: 'Montserrat', sans-serif !important;
+    box-sizing: border-box !important;
+}
+
+$yellow: #ffc107;
+$bgSize : contain;
+$imagesBgSize: cover;
+$bgRepeat: no-repeat;
+$bgPos: center center;
+$gray : #212529;
+
+.grayscale100 {
+    filter: grayscale(100%) !important;
+}
+.mw320 {
+    max-width: 480px !important;
+}
+
+a {
+    color: black !important;
+}
+
+.box-shadow-underlined {
+    box-shadow: inset 0 1.2em #fff, inset 0 1.8em lighten(lightgray, 10%);
+}
+
+.br-none {
+    border-radius: 0px !important;
+}
+
+.b-none {
+    border: none !important;
+    box-shadow: inset 0 0 0 1px $gray;
+}
+
+.mw768 {
+    max-width: 768px !important;
+}
+
+.mw992 {
+    max-width: 992px !important;
+}
+
+.mw1280 {
+    max-width: 1280px !important;
+}
+
+.mh25vh {
+    min-height: 25vh !important;
+}
+.mh30vh {
+    min-height: 30vh !important;
+}
+
+.mh50vh {
+    min-height: 50vh !important;
+}
+
+.h25vh {
+    height: 25vh !important;
+}
+
+// My styles
