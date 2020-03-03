@@ -47,10 +47,20 @@ iframe {
 .iframe-fb {
     width: 100%;
 }
-
+.mini-logo {
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hidden-on-lg {
+    display: none;
+}
 @media screen and (max-width:768px) {
     .hidden-on-sm {
         display: none;
+    }
+    .hidden-on-lg {
+        display: block;
     }
 }
 
@@ -200,6 +210,7 @@ header {
         display: block;
         left: unset;
         right: 1em;
+        top: 23%;
     }
 
 }
@@ -367,7 +378,10 @@ header {
     .modal {
         z-index: 99999;
     }
-
+    h3 {
+        font-size: 24px;
+        font-weight: bold;
+    }
     .row {
         
         .image-container {
