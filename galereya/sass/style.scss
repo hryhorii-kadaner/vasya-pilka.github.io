@@ -94,18 +94,40 @@ a[data-fancybox] {
                 -moz-transform: scale(1.025);
                 -webkit-transform: scale(1.025);
             }
-
+            .first {
+                @extend .img-placeholder;
+                background: url("../images/durer/1.jpg") no-repeat;
+            }
+            .second {
+                @extend .img-placeholder;
+                background: url("../images/durer/2.jpg") no-repeat;
+            }
+            .third {
+                @extend .img-placeholder;
+                background: url("../images/durer/3.jpg") no-repeat;
+            }
+            .fourth {
+                @extend .img-placeholder;
+                background: url("../images/durer/4.jpg") no-repeat;
+            }
+            .fifth {
+                @extend .img-placeholder;
+                background: url("../images/durer/1.jpg") no-repeat;
+            }
+            .sixth {
+                @extend .img-placeholder;
+                background: url("../images/durer/2.jpg") no-repeat;
+            }
             .img-placeholder {
                 height: 100%;
-                background: url("../images/1.jpg") no-repeat;
-                background-size: 120%;
+                background-size: 180%;
                 background-position: center center;
                 transition: .3s linear;
                 transition: background-size .7s linear;
                 box-shadow: inset 0 0 0 2px white;
 
                 &:hover, &:focus {
-                    background-size: 150%;
+                    background-size: 200%;
                     transition: background-size 10s linear;
                     box-shadow: 0 0 20px 0 black;
                     z-index: 9;
@@ -118,9 +140,7 @@ a[data-fancybox] {
                         bottom: 0%;
                     }
 
-                    .arrow {
-                        right: 0%;
-                    }
+                    
 
                     .caption {
                         left: 35px;
@@ -133,26 +153,10 @@ a[data-fancybox] {
                     &:hover {
                         background-size: cover;
                     }
-                }
+                }                
             }
 
-            .arrow {
-                position: absolute;
-                width: 25%;
-                height: 100%;
-                right: -50%;
-                top: 0;
-                transition: .3s linear;
-
-                svg {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    font-size: 40px;
-                    color: white;
-                }
-            }
+            
 
             .img-caption {
                 line-height: 1.5;
@@ -213,9 +217,7 @@ a[data-fancybox] {
                     -webkit-transform: scale(1);
                 }
 
-                .arrow {
-                    right: 0%;
-                }
+                
 
                 .caption {
                     left: 35px !important;
@@ -257,9 +259,7 @@ a[data-fancybox] {
                     -webkit-transform: scale(1);
                 }
 
-                .arrow {
-                    right: 0%;
-                }
+                
 
                 .caption {
                     left: 35px !important;
@@ -295,9 +295,7 @@ a[data-fancybox] {
                     -webkit-transform: scale(1);
                 }
 
-                .arrow {
-                    right: 0%;
-                }
+                
 
                 .caption {
                     left: 35px !important;
@@ -332,9 +330,7 @@ a[data-fancybox] {
                     -webkit-transform: scale(1);
                 }
 
-                .arrow {
-                    right: 0%;
-                }
+                
 
                 .caption {
                     left: 35px !important;
