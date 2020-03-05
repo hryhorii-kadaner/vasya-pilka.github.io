@@ -21,9 +21,15 @@ $gray : #212529;
 .mw320 {
     max-width: 480px;
 }
-
+strong {
+    font-weight: bold;
+}
 a {
     color: black;
+}
+a[data-fancybox] {
+    color: black;
+    z-index: 999;
 }
 
 .box-shadow-underlined {
@@ -163,7 +169,6 @@ a {
                 width: auto;
                 background-color: rgba(#000, 0);
                 transition: .3s linear;
-                cursor: pointer;
 
                 .caption {
                     position: absolute;
@@ -225,8 +230,89 @@ a {
                     font-size: 14px;
                 }
             }
+            @media screen and (max-width:768px) {
+                min-height: 60vh;
+                margin-top: 5vh;
+                border: 1px solid lightgray;
+                border-radius: 3px;
+
+                .img-placeholder {
+                    box-shadow: none;
+                }
+
+                .img-placeholder {
+                    background-size: cover;
+
+                    &:hover {
+                        background-size: cover;
+                    }
+                }
+
+                &:hover {
+                    transform: scale(1);
+                    -ms-transform: scale(1);
+                    -o-transform: scale(1);
+                    -moz-transform: scale(1);
+                    -webkit-transform: scale(1);
+                }
+
+                .arrow {
+                    right: 0%;
+                }
+
+                .caption {
+                    left: 35px !important;
+                }
+
+                .img-caption {
+                    line-height: 1.5;
+                    position: absolute;
+                    bottom: 0%;
+                    background: #fff;
+                    padding: 10px 15px;
+                    transition: .3s linear;
+                    font-size: 14px;
+                }
+            }
 
             @media screen and (hover:none) and (max-width:576px) {
+                min-height: 80vh;
+
+                .img-placeholder {
+                    background-size: cover;
+
+                    &:hover {
+                        background-size: cover;
+                    }
+                }
+
+                &:hover {
+                    transform: scale(1);
+                    -ms-transform: scale(1);
+                    -o-transform: scale(1);
+                    -moz-transform: scale(1);
+                    -webkit-transform: scale(1);
+                }
+
+                .arrow {
+                    right: 0%;
+                }
+
+                .caption {
+                    left: 35px !important;
+                }
+
+                .img-caption {
+                    line-height: 1.5;
+                    position: absolute;
+                    bottom: 0%;
+                    background: #fff;
+                    padding: 10px 15px;
+                    transition: .3s linear;
+                    font-size: 14px;
+                }
+            }
+            @media screen and (max-width:576px) {
                 min-height: 80vh;
 
                 .img-placeholder {
