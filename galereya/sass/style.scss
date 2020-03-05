@@ -33,7 +33,7 @@ a[data-fancybox] {
 }
 
 .box-shadow-underlined {
-    box-shadow: inset 0 1.2em #fff, inset 0 1.8em lighten(lightgray, 10%);
+    box-shadow: inset 0 1.0em #fff, inset 0 1.6em lighten(lightgray, 10%);
 }
 
 .br-none {
@@ -84,7 +84,7 @@ a[data-fancybox] {
             overflow: hidden;
             transition: .3s linear;
 
-            &:hover {
+            &:hover, &:focus {
                 box-shadow: 0 0 20px 0 black;
                 filter: grayscale(0%);
                 z-index: 9;
@@ -104,7 +104,7 @@ a[data-fancybox] {
                 transition: background-size .7s linear;
                 box-shadow: inset 0 0 0 2px white;
 
-                &:hover {
+                &:hover, &:focus {
                     background-size: 150%;
                     transition: background-size 10s linear;
                     box-shadow: 0 0 20px 0 black;
@@ -200,12 +200,12 @@ a[data-fancybox] {
                 .img-placeholder {
                     background-size: cover;
 
-                    &:hover {
+                    &:hover, &:focus {
                         background-size: cover;
                     }
                 }
 
-                &:hover {
+                &:hover, &:focus {
                     transform: scale(1);
                     -ms-transform: scale(1);
                     -o-transform: scale(1);
@@ -244,7 +244,7 @@ a[data-fancybox] {
                 .img-placeholder {
                     background-size: cover;
 
-                    &:hover {
+                    &:hover, &:focus {
                         background-size: cover;
                     }
                 }
@@ -282,12 +282,12 @@ a[data-fancybox] {
                 .img-placeholder {
                     background-size: cover;
 
-                    &:hover {
+                    &:hover, &:focus {
                         background-size: cover;
                     }
                 }
 
-                &:hover {
+                &:hover, &:focus {
                     transform: scale(1);
                     -ms-transform: scale(1);
                     -o-transform: scale(1);
@@ -319,12 +319,12 @@ a[data-fancybox] {
                 .img-placeholder {
                     background-size: cover;
 
-                    &:hover {
+                    &:hover, &:focus {
                         background-size: cover;
                     }
                 }
 
-                &:hover {
+                &:hover, &:focus {
                     transform: scale(1);
                     -ms-transform: scale(1);
                     -o-transform: scale(1);
