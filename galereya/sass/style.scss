@@ -77,6 +77,7 @@ a[data-fancybox] {
 
 .sec1 {
     .row {
+        transition: .3s linear;
         .col-10 {
             position: relative;
             padding: 0;

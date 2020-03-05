@@ -146,14 +146,18 @@ a[data-fancybox] {
   height: 25vh;
 }
 
-/* line 80, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
+.sec1 .row {
+  transition: .3s linear;
+}
+/* line 81, ../sass/style.scss */
 .sec1 .row .col-10 {
   position: relative;
   padding: 0;
   overflow: hidden;
   transition: .3s linear;
 }
-/* line 86, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .sec1 .row .col-10:hover {
   box-shadow: 0 0 20px 0 black;
   filter: grayscale(0%);
@@ -164,7 +168,7 @@ a[data-fancybox] {
   -moz-transform: scale(1.025);
   -webkit-transform: scale(1.025);
 }
-/* line 97, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 .sec1 .row .col-10 .img-placeholder {
   height: 100%;
   background: url("../images/1.jpg") no-repeat;
@@ -174,40 +178,40 @@ a[data-fancybox] {
   transition: background-size .7s linear;
   box-shadow: inset 0 0 0 2px white;
 }
-/* line 106, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .sec1 .row .col-10 .img-placeholder:hover {
   background-size: 150%;
   transition: background-size 10s linear;
   box-shadow: 0 0 20px 0 black;
   z-index: 9;
 }
-/* line 112, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .sec1 .row .col-10 .img-placeholder:hover .img-heading-caption {
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 116, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .sec1 .row .col-10 .img-placeholder:hover .img-caption {
   bottom: 0%;
 }
-/* line 120, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .sec1 .row .col-10 .img-placeholder:hover .arrow {
   right: 0%;
 }
-/* line 124, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 .sec1 .row .col-10 .img-placeholder:hover .caption {
   left: 35px;
 }
 @media screen and (max-width: 576px) {
-  /* line 97, ../sass/style.scss */
+  /* line 98, ../sass/style.scss */
   .sec1 .row .col-10 .img-placeholder {
     background-size: cover;
   }
-  /* line 132, ../sass/style.scss */
+  /* line 133, ../sass/style.scss */
   .sec1 .row .col-10 .img-placeholder:hover {
     background-size: cover;
   }
 }
-/* line 138, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .sec1 .row .col-10 .arrow {
   position: absolute;
   width: 25%;
@@ -216,7 +220,7 @@ a[data-fancybox] {
   top: 0;
   transition: .3s linear;
 }
-/* line 146, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .sec1 .row .col-10 .arrow svg {
   position: absolute;
   top: 50%;
@@ -225,7 +229,7 @@ a[data-fancybox] {
   font-size: 40px;
   color: white;
 }
-/* line 156, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .sec1 .row .col-10 .img-caption {
   line-height: 1.5;
   position: absolute;
@@ -235,7 +239,7 @@ a[data-fancybox] {
   transition: .3s linear;
   font-size: 14px;
 }
-/* line 166, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .sec1 .row .col-10 .img-heading-caption {
   position: relative;
   height: 100%;
@@ -243,7 +247,7 @@ a[data-fancybox] {
   background-color: transparent;
   transition: .3s linear;
 }
-/* line 173, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .sec1 .row .col-10 .img-heading-caption .caption {
   position: absolute;
   top: 40%;
@@ -251,32 +255,32 @@ a[data-fancybox] {
   transform: translateY(-40%);
   transition: .3s linear;
 }
-/* line 180, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 .sec1 .row .col-10 .img-heading-caption .caption h3 {
   font-size: 24px;
   color: white;
 }
 @media screen and (hover: none) and (max-width: 768px) {
-  /* line 80, ../sass/style.scss */
+  /* line 81, ../sass/style.scss */
   .sec1 .row .col-10 {
     min-height: 60vh;
     margin-top: 5vh;
     border: 1px solid lightgray;
     border-radius: 3px;
   }
-  /* line 195, ../sass/style.scss */
+  /* line 196, ../sass/style.scss */
   .sec1 .row .col-10 .img-placeholder {
     box-shadow: none;
   }
-  /* line 199, ../sass/style.scss */
+  /* line 200, ../sass/style.scss */
   .sec1 .row .col-10 .img-placeholder {
     background-size: cover;
   }
-  /* line 202, ../sass/style.scss */
+  /* line 203, ../sass/style.scss */
   .sec1 .row .col-10 .img-placeholder:hover {
     background-size: cover;
   }
-  /* line 207, ../sass/style.scss */
+  /* line 208, ../sass/style.scss */
   .sec1 .row .col-10:hover {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -284,15 +288,15 @@ a[data-fancybox] {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 215, ../sass/style.scss */
+  /* line 216, ../sass/style.scss */
   .sec1 .row .col-10 .arrow {
     right: 0%;
   }
-  /* line 219, ../sass/style.scss */
+  /* line 220, ../sass/style.scss */
   .sec1 .row .col-10 .caption {
     left: 35px !important;
   }
-  /* line 223, ../sass/style.scss */
+  /* line 224, ../sass/style.scss */
   .sec1 .row .col-10 .img-caption {
     line-height: 1.5;
     position: absolute;
@@ -304,26 +308,26 @@ a[data-fancybox] {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 80, ../sass/style.scss */
+  /* line 81, ../sass/style.scss */
   .sec1 .row .col-10 {
     min-height: 60vh;
     margin-top: 5vh;
     border: 1px solid lightgray;
     border-radius: 3px;
   }
-  /* line 239, ../sass/style.scss */
+  /* line 240, ../sass/style.scss */
   .sec1 .row .col-10 .img-placeholder {
     box-shadow: none;
   }
-  /* line 243, ../sass/style.scss */
+  /* line 244, ../sass/style.scss */
   .sec1 .row .col-10 .img-placeholder {
     background-size: cover;
   }
-  /* line 246, ../sass/style.scss */
+  /* line 247, ../sass/style.scss */
   .sec1 .row .col-10 .img-placeholder:hover {
     background-size: cover;
   }
-  /* line 251, ../sass/style.scss */
+  /* line 252, ../sass/style.scss */
   .sec1 .row .col-10:hover {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -331,15 +335,15 @@ a[data-fancybox] {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 259, ../sass/style.scss */
+  /* line 260, ../sass/style.scss */
   .sec1 .row .col-10 .arrow {
     right: 0%;
   }
-  /* line 263, ../sass/style.scss */
+  /* line 264, ../sass/style.scss */
   .sec1 .row .col-10 .caption {
     left: 35px !important;
   }
-  /* line 267, ../sass/style.scss */
+  /* line 268, ../sass/style.scss */
   .sec1 .row .col-10 .img-caption {
     line-height: 1.5;
     position: absolute;
@@ -351,19 +355,19 @@ a[data-fancybox] {
   }
 }
 @media screen and (hover: none) and (max-width: 576px) {
-  /* line 80, ../sass/style.scss */
+  /* line 81, ../sass/style.scss */
   .sec1 .row .col-10 {
     min-height: 80vh;
   }
-  /* line 281, ../sass/style.scss */
+  /* line 282, ../sass/style.scss */
   .sec1 .row .col-10 .img-placeholder {
     background-size: cover;
   }
-  /* line 284, ../sass/style.scss */
+  /* line 285, ../sass/style.scss */
   .sec1 .row .col-10 .img-placeholder:hover {
     background-size: cover;
   }
-  /* line 289, ../sass/style.scss */
+  /* line 290, ../sass/style.scss */
   .sec1 .row .col-10:hover {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -371,15 +375,15 @@ a[data-fancybox] {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 297, ../sass/style.scss */
+  /* line 298, ../sass/style.scss */
   .sec1 .row .col-10 .arrow {
     right: 0%;
   }
-  /* line 301, ../sass/style.scss */
+  /* line 302, ../sass/style.scss */
   .sec1 .row .col-10 .caption {
     left: 35px !important;
   }
-  /* line 305, ../sass/style.scss */
+  /* line 306, ../sass/style.scss */
   .sec1 .row .col-10 .img-caption {
     line-height: 1.5;
     position: absolute;
@@ -391,19 +395,19 @@ a[data-fancybox] {
   }
 }
 @media screen and (max-width: 576px) {
-  /* line 80, ../sass/style.scss */
+  /* line 81, ../sass/style.scss */
   .sec1 .row .col-10 {
     min-height: 80vh;
   }
-  /* line 318, ../sass/style.scss */
+  /* line 319, ../sass/style.scss */
   .sec1 .row .col-10 .img-placeholder {
     background-size: cover;
   }
-  /* line 321, ../sass/style.scss */
+  /* line 322, ../sass/style.scss */
   .sec1 .row .col-10 .img-placeholder:hover {
     background-size: cover;
   }
-  /* line 326, ../sass/style.scss */
+  /* line 327, ../sass/style.scss */
   .sec1 .row .col-10:hover {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -411,15 +415,15 @@ a[data-fancybox] {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 334, ../sass/style.scss */
+  /* line 335, ../sass/style.scss */
   .sec1 .row .col-10 .arrow {
     right: 0%;
   }
-  /* line 338, ../sass/style.scss */
+  /* line 339, ../sass/style.scss */
   .sec1 .row .col-10 .caption {
     left: 35px !important;
   }
-  /* line 342, ../sass/style.scss */
+  /* line 343, ../sass/style.scss */
   .sec1 .row .col-10 .img-caption {
     line-height: 1.5;
     position: absolute;
