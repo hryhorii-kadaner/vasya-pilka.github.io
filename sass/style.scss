@@ -111,7 +111,23 @@ iframe {
         box-shadow: none !important;
     }
 }
-
+#hiddenTextOnSm {
+    display: none;
+    span {
+        padding: 25px !important;
+    }
+    
+    @media screen and (max-width:768px){
+        display: block;
+    }
+}
+.show-md {
+    margin: 15px;
+    padding: 15px;
+}
+#textCollapser {
+    width: 25px;
+}
 .lh-2 {
     line-height: 1.5;
 }
