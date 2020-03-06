@@ -3,7 +3,11 @@ var windWidth = document.documentElement.clientWidth,
     textCollapser = document.getElementById('textCollapser');
     
 
-
+    if (windWidth > 768) {
+        collapsedText.classList.add("show");
+    } else {
+        collapsedText.classList.remove("show");
+    }
 
 textCollapser.onclick = $(function () {
     $("#textCollapser").click(function () {
@@ -12,8 +16,3 @@ textCollapser.onclick = $(function () {
     });
 });
 
-if (windWidth > 768) {
-    collapsedText.classList.add("show");
-} else {
-    collapsedText.classList.remove("show");
-}
