@@ -55,23 +55,23 @@
         <div class="row justify-content-center hidden-on-sm">
             <div class="main-sec container-fluid">
                 <div class="row justify-content-center align-items-center">
-                    <div class="centred-top w-100 text-center mt-4">
-                        <img src="../images/logo.png" alt="" class="logo-img">
-                        <img src="../images/vasyl.png" alt="" class="vasyl-img">
+                    <div class="centred-top w-100 text-center mt-4" onclick="backToHomePage();">
+                        <img src="../images/logo.png" alt="" class="logo-img" style="cursor: pointer;">
+                        <img src="../images/vasyl.png" alt="" class="vasyl-img" style="cursor: pointer;">
                     </div>
 
                 </div>
             </div>
             <div class="col-12 text-center mt-5 mb-4">
                 <ul class="mx-auto mt-4">
-                    <li><a href="../#portfolio" id="toPortfolioFirst">Портфоліо</a></li>
-                    <li><a href="../#gallerey" id="toGallereyFirst">Галерея</a></li>
-                    <li><a href="../#contacts" id="toContactsFirst">Контакти</a></li>
+                    <li><a href="../#portfolio" id="toPortfolioFirst" onclick="homePortfolio();">Портфоліо</a></li>
+                    <li><a href="../#gallerey" id="toGallereyFirst" onclick="homeGallerey();">Галерея</a></li>
+                    <li><a href="../#contacts" id="toContactsFirst" onclick="homeContacts();">Контакти</a></li>
                 </ul>
             </div>
         </div>
         <div class="row">
-            <img src="../images/vasyl.png" alt="" width="100" class="hidden-on-lg mini-logo">
+            <img src="../images/vasyl.png" alt="" width="100" class="hidden-on-lg mini-logo" onclick="backToHomePage();" style="cursor: pointer;">
             <button class="btn" id="menuShower"> <span class="hidden-on-sm">Menu</span> &nbsp;
                 <i class="far fa-bars"></i>
             </button>
@@ -85,14 +85,14 @@
                     <i class="fal fa-times"></i>
                 </button>
                 <div class="menu-title pt-5 mb-5">
-                    <img src="../images/menu.png" alt="" class="w-50">
+                    <img src="../images/menu.png" alt="" class="w-50" onclick="backToHomePage();" style="cursor: pointer;">
                 </div>
                 <hr class="text-slicer">
                 <div class="menu-links mt-5">
                     <ul>
-                        <li><a href="../#portfolio" id="toPortfolioSecond">Портфоліо</a></li>
-                        <li><a href="../#gallerey" id="toGallereySecond">Галерея</a></li>
-                        <li><a href="../#contacts" id="toContactsSecond">Контакти</a></li>
+                        <li><a href="../#portfolio" id="toPortfolioSecond" onclick="homePortfolio();">Портфоліо</a></li>
+                        <li><a href="../#gallerey" id="toGallereySecond" onclick="homeGallerey();">Галерея</a></li>
+                        <li><a href="../#contacts" id="toContactsSecond" onclick="homeContacts();">Контакти</a></li>
                     </ul>
                 </div>
             </div>
