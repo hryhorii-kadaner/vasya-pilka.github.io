@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/headerMenu.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- OWL Carousel CSS -->
+    <link rel="stylesheet" href="owlCss/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="owlCss/owl.theme.default.min.css">
+
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <title>Василь Пілка | Про мене</title>
+</head>
+
+<body>
+    <!-- MENU -->
+    <header class="container-fluid" id="navigMenu">
+        <div class="row justify-content-center hidden-on-sm">
+            <div class="main-sec container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="centred-top w-100 text-center mt-4" onclick="backToHomePage();">
+                        <img src="../images/logo.png" alt="" class="logo-img" style="cursor: pointer;">
+                        <img src="../images/vasyl.png" alt="" class="vasyl-img" style="cursor: pointer;">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 text-center mt-5 mb-4">
+                <ul class="mx-auto mt-4">
+                    <li><a href="../#portfolio" id="toPortfolioFirst" onclick="homePortfolio();">Портфоліо</a></li>
+                    <li><a href="../#gallerey" id="toGallereyFirst" onclick="homeGallerey();">Галерея</a></li>
+                    <li><a href="../#contacts" id="toContactsFirst" onclick="homeContacts();">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <img src="../images/vasyl.png" alt="" width="100" class="hidden-on-lg mini-logo" onclick="backToHomePage();"
+                style="cursor: pointer;">
+            <button class="btn" id="menuShower"> <span class="hidden-on-sm">Menu</span> &nbsp;
+                <i class="far fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    <div class="container-fluid menuOnClick p-0 wow" id="menu" data-wow-duration="1s">
+        <div class="row m-0">
+            <div class="main-content mw320">
+                <button class="btn closeBtn" id="menuCloser">
+                    <i class="fal fa-times"></i>
+                </button>
+                <div class="menu-title pt-5 mb-5">
+                    <img src="../images/menu.png" alt="" class="w-50" onclick="backToHomePage();"
+                        style="cursor: pointer;">
+                </div>
+                <hr class="text-slicer">
+                <div class="menu-links mt-5">
+                    <ul>
+                        <li><a href="../#portfolio" id="toPortfolioSecond" onclick="homePortfolio();">Портфоліо</a></li>
+                        <li><a href="../#gallerey" id="toGallereySecond" onclick="homeGallerey();">Галерея</a></li>
+                        <li><a href="../#contacts" id="toContactsSecond" onclick="homeContacts();">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="../js/showMenu.js"></script>
+    </div>
+    <!-- MENU -->
+
+    <section class="sec1 container-fluid blockquote-section top30vh mw992">
+        <h1>Заголовок</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et cum porro dignissimos, laudantium eveniet odit
+            quidem accusamus eos autem, fugiat mollitia, magnam numquam vitae quam! Veniam quasi animi quisquam
+            consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque aliquam sed
+            praesentium ea doloribus itaque voluptate commodi ab, unde esse ex optio, quas quos ut, nihil inventore
+            porro vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ratione rem fugit sapiente
+            nulla eveniet neque eos distinctio vitae, magni doloremque corporis facere quos eligendi consectetur
+            explicabo tenetur voluptatem? Debitis.
+            Quis unde repellendus sit dicta nam numquam ullam laboriosam sunt magnam eum. Quia earum eum necessitatibus.
+            Illum saepe veniam quas neque culpa aliquam eos sapiente eligendi, tenetur facere enim id.
+            Facilis neque, minima suscipit officiis veritatis quos sapiente iste optio voluptatem dicta porro ratione
+            vero. Velit saepe nemo beatae! Molestias, laboriosam minus corrupti natus odit officiis error atque.
+            Nesciunt, ratione.</p>
+        <div class="slider-1 owl-carousel owl-theme owl-loaded owl-nav-outer owl-dot-round owl-1 owl-drag">
+
+            <div class="owl-stage-outer">
+
+                <div class="owl-stage">
+
+                    <div class="owl-item active ">
+
+                        <div class="card col-12 mx-auto" style="max-width: 320px;">
+                            <div class="card-body text-left">
+                                <div class="mx-auto mt-3 mb-3">
+                                    <img src="images/dev4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="owl-item ">
+
+                        <div class="card col-12 mx-auto" style="max-width: 320px;">
+                            <div class="card-body text-left">
+                                <div class="mx-auto mt-3 mb-3">
+                                    <img src="images/dev1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="owl-item ">
+
+                        <div class="card col-12 mx-auto" style="max-width: 320px;">
+                            <div class="card-body text-left">
+                                <div class="mx-auto mt-3 mb-3">
+                                    <img src="images/deve2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="owl-item ">
+
+                        <div class="card col-12 mx-auto" style="max-width: 320px;">
+                            <div class="card-body text-left">
+                                <div class="mx-auto mt-3 mb-3">
+                                    <img src="images/dev3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="owl-item ">
+
+                        <div class="card col-12 mx-auto" style="max-width: 320px;">
+                            <div class="card-body text-left">
+                                <div class="mx-auto mt-3 mb-3">
+                                    <img src="images/dev5.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="owl-item ">
+
+                        <div class="card col-12 mx-auto" style="max-width: 320px;">
+                            <div class="card-body text-left">
+                                <div class="mx-auto mt-3 mb-3">
+                                    <img src="images/dev6.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="owl-item ">
+
+                        <div class="card col-12 mx-auto" style="max-width: 320px;">
+                            <div class="card-body text-left">
+                                <div class="mx-auto mt-3 mb-3">
+                                    <img src="images/dev7.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="owl-item ">
+
+                        <div class="card col-12 mx-auto" style="max-width: 320px;">
+                            <div class="card-body text-left">
+                                <div class="mx-auto mt-3 mb-3">
+                                    <img src="images/dev8.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="owl-controls">
+                    <button class="btn falseNavigationLeft"><i class="fas fa-angle-left fz35"></i></button>
+                    <button class="btn falseNavigationRight"><i class="fas fa-angle-right fz35"></i></button>
+                </div>
+
+
+            </div>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et cum porro dignissimos, laudantium eveniet odit
+            quidem accusamus eos autem, fugiat mollitia, magnam numquam vitae quam! Veniam quasi animi quisquam
+            consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque aliquam sed
+            praesentium ea doloribus itaque voluptate commodi ab, unde esse ex optio, quas quos ut, nihil inventore
+            porro vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ratione rem fugit sapiente
+            nulla eveniet neque eos distinctio vitae, magni doloremque corporis facere quos eligendi consectetur
+            explicabo tenetur voluptatem? Debitis.
+            Quis unde repellendus sit dicta nam numquam ullam laboriosam sunt magnam eum. Quia earum eum necessitatibus.
+            Illum saepe veniam quas neque culpa aliquam eos sapiente eligendi, tenetur facere enim id.
+            Facilis neque, minima suscipit officiis veritatis quos sapiente iste optio voluptatem dicta porro ratione
+            vero. Velit saepe nemo beatae! Molestias, laboriosam minus corrupti natus odit officiis error atque.
+            Nesciunt, ratione.</p>
+            <div class="slider-2 owl-carousel owl-theme owl-loaded owl-nav-outer owl-dot-round owl-1 owl-drag">
+
+                <div class="owl-stage-outer">
+    
+                    <div class="owl-stage">
+    
+                        <div class="owl-item active ">
+    
+                            <div class="card col-12 mx-auto" style="max-width: 320px;">
+                                <div class="card-body text-left">
+                                    <div class="mx-auto mt-3 mb-3">
+                                        <img src="images/dev4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div class="owl-item ">
+    
+                            <div class="card col-12 mx-auto" style="max-width: 320px;">
+                                <div class="card-body text-left">
+                                    <div class="mx-auto mt-3 mb-3">
+                                        <img src="images/dev1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div class="owl-item ">
+    
+                            <div class="card col-12 mx-auto" style="max-width: 320px;">
+                                <div class="card-body text-left">
+                                    <div class="mx-auto mt-3 mb-3">
+                                        <img src="images/deve2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div class="owl-item ">
+    
+                            <div class="card col-12 mx-auto" style="max-width: 320px;">
+                                <div class="card-body text-left">
+                                    <div class="mx-auto mt-3 mb-3">
+                                        <img src="images/dev3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="owl-item ">
+    
+                            <div class="card col-12 mx-auto" style="max-width: 320px;">
+                                <div class="card-body text-left">
+                                    <div class="mx-auto mt-3 mb-3">
+                                        <img src="images/dev5.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="owl-item ">
+    
+                            <div class="card col-12 mx-auto" style="max-width: 320px;">
+                                <div class="card-body text-left">
+                                    <div class="mx-auto mt-3 mb-3">
+                                        <img src="images/dev6.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="owl-item ">
+    
+                            <div class="card col-12 mx-auto" style="max-width: 320px;">
+                                <div class="card-body text-left">
+                                    <div class="mx-auto mt-3 mb-3">
+                                        <img src="images/dev7.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div class="owl-item ">
+    
+                            <div class="card col-12 mx-auto" style="max-width: 320px;">
+                                <div class="card-body text-left">
+                                    <div class="mx-auto mt-3 mb-3">
+                                        <img src="images/dev8.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    <div class="owl-controls">
+                        <button class="btn falseNavigationLeftSecond" id="falseNavigationLeftSecond"><i class="fas fa-angle-left fz35"></i></button>
+                        <button class="btn falseNavigationRightSecond" id="falseNavigationRightSecond"><i class="fas fa-angle-right fz35"></i></button>                    
+                    </div>
+    
+    
+                </div>
+            </div>
+    </section>
+
+
+    <div class="to-top wow " data-wow-duration=".3s" id="topButton" hidden>
+        <a class="btn" href="#">
+            <i class="far fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <!-- jQuery OWL CAROUSEL -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/owl.carousel.js"></script>
+    <script src="../js/owl.autoplay.js"></script>
+    <script src="../js/highlight.js"></script>
+    <script src="../js/app.js"></script>
+    <!-- START OF OWL CAROUSEL -->
+    <script src="../js/owl-start.js"></script>
+
+    <!-- Fontawesome -->
+    <script src="../fontawesome/js/all.min.js"></script>
+
+    <script src="js/links.js"></script>
+</body>
+
+</html>
