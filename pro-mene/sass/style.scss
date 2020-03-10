@@ -1,0 +1,215 @@
+@import "compass/reset";
+
+* {
+    font-family: 'Montserrat' !important;
+}
+
+// My styles
+$yellow: #ffc107;
+$bgSize : contain;
+$imagesBgSize: cover;
+$bgRepeat: no-repeat;
+$bgPos: center center;
+$gray : #212529;
+
+.grayscale100 {
+    filter: grayscale(100%);
+}
+
+.btn {
+
+    &:focus,
+    &:active {
+        box-shadow: none !important;
+    }
+}
+
+.fy_v16x9,
+.fy_v4x3 {
+    max-width: 100% !important;
+}
+
+.mw320 {
+    max-width: 480px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    color: black;
+}
+
+a[data-fancybox] {
+    color: black;
+    z-index: 999;
+}
+
+.box-shadow-underlined {
+    box-shadow: inset 0 1.0em #fff, inset 0 1.6em lighten(lightgray, 10%);
+}
+
+.br-none {
+    border-radius: 0px;
+}
+
+.b-none {
+    border: none;
+    box-shadow: inset 0 0 0 1px $gray;
+}
+
+.mw768 {
+    max-width: 768px;
+}
+
+.mw992 {
+    max-width: 992px;
+}
+
+.mw1280 {
+    max-width: 1280px;
+}
+
+.mh25vh {
+    min-height: 25vh;
+}
+
+.mh30vh {
+    min-height: 30vh;
+}
+
+.mh50vh {
+    min-height: 50vh;
+}
+
+.h25vh {
+    height: 25vh;
+}
+
+.big {
+    font-size: 25px;
+}
+
+.top30vh {
+    margin-top: 30vh !important;
+}
+
+// My styles
+
+.sec1 {
+    .job {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .card-title {
+        white-space: nowrap;
+    }
+
+    .slider-1 {
+        position: relative;
+
+        .falseNavigationLeft {
+            position: absolute;
+            height: 100%;
+            top: 50%;
+            left: 0;
+            transform: translate(0%, -50%);
+            font-size: 30px;
+        }
+
+        .falseNavigationRight {
+            position: absolute;
+            height: 100%;
+            top: 50%;
+            right: 0;
+            transform: translate(0%, -50%);
+            font-size: 30px;
+        }
+
+        .falseNavigationLeft,
+        .falseNavigationRight {
+            transition: .3s linear;
+            color: lighten(gray, 35%);
+
+            &:hover,
+            &:focus,
+            &:active {
+                box-shadow: none;
+            }
+
+            &:hover {
+                opacity: .6;
+            }
+        }
+    }
+    .slider-2 {
+        @extend .slider-1;
+        #falseNavigationLeftSecond {
+            @extend .falseNavigationLeft;
+        }
+
+        #falseNavigationRightSecond {
+            @extend .falseNavigationRight;
+        }
+
+        #falseNavigationLeftSecond, #falseNavigationRightSecond {
+            transition: .3s linear;
+            color: lighten(gray, 35%);
+            &:hover, &:focus, &:active {
+                box-shadow: none;
+            }
+            &:hover {
+                opacity: .6;
+            }
+        }
+    }
+
+    .card {
+        border: none;
+
+        .card-title {
+            font-weight: bold;
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    .slider-text-slicer {
+        margin-bottom: .5em;
+        height: 3px;
+        width: 65px;
+        background: $yellow;
+        box-sizing: border-box;
+    }
+
+    .nazva {
+        text-align: center;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+}
+
+.blockquote-section {
+    line-height: 1.7;
+    position: relative;
+    border-left: 8px solid lighten(gray, 35%);
+    text-align: justify;
+
+    @media screen and (max-width:576px) {
+        border-left: 0px;
+    }
+
+    h1 {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+}
