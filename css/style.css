@@ -198,7 +198,7 @@ iframe {
   display: none;
 }
 /* line 116, ../sass/style.scss */
-#hiddenTextOnSm span {
+#hiddenTextOnSm div {
   padding: 25px !important;
 }
 @media screen and (max-width: 768px) {
