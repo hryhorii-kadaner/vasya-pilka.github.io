@@ -55,6 +55,7 @@ iframe {
 .hidden-on-lg {
     display: none;
 }
+
 @media screen and (max-width:768px) {
     .hidden-on-sm {
         display: none;
@@ -393,13 +394,24 @@ header {
 .sec2 {
     .modal {
         z-index: 99999;
-    }
-    h3 {
-        font-size: 24px;
-        font-weight: bold;
-    }
+    }    
     .row {
-        
+        .pfolio {
+                font-size: 24px;
+                font-weight: bold;
+        }
+        .quote-text-cont {
+            color: rgb(0, 81, 255);
+            h3 {
+                font-family: 'Liana', sans-serif !important;
+                letter-spacing: 2px;
+                font-size: 28px;                
+            }
+            span {
+                font-style: italic;
+            }
+            
+        }
         .image-container {
             background: url("../images/vasya.png") $bgRepeat;
             background-position: $bgPos;
