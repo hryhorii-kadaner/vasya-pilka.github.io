@@ -145,6 +145,10 @@ a[data-fancybox] {
                 @extend .img-placeholder;
                 background: url("../images/9.jpg") no-repeat;
             }
+            .tenth {
+                @extend .img-placeholder;
+                background: url("../images/10.jpg") no-repeat;
+            }
             .img-placeholder {
                 height: 100%;
                 background-size: 180%;
