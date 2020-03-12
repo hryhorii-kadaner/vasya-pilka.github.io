@@ -217,3 +217,51 @@ a[data-fancybox] {
         margin-bottom: 1em;
     }
 }
+
+.to-top {
+    z-index: 99;
+    position: fixed !important;
+    /* фиксированная позиция */
+    right: 80px;
+    /* расстояние от правого края */
+    bottom: 60px;
+    /* расстояние от нижнего края */
+    text-align: center;
+    /*выравнивание содержимого элемента по центру */
+    animation-fill-mode: both;
+
+    .btn {
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 1px solid lightgray;
+        box-shadow: 0px 4px 5px gray;
+        padding: 0;
+        color: rgb(153, 153, 153);
+        /* цвет текста */
+
+
+
+    }
+
+    .btn:hover {
+        box-shadow: 0px 2px 5px gray;
+        color: rgb(126, 126, 126);
+    }
+
+    @media screen and (max-width:576px) {
+        right: 30px;
+        /* расстояние от правого края */
+        bottom: 20px;
+
+        .btn {
+            font-size: 24px;
+            width: 40px;
+            height: 40px;
+        }
+
+    }
+
+}
