@@ -40,8 +40,6 @@ $(document).ready(function () {
 		autoplayTimeout: 7000,
 		autoplayHoverPause: true,
 		items: 4,
-		mouseDrag: false,
-		touchDrag: false,
 		responsiveClass: true,
 		responsive: {
 			0: {
