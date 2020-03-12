@@ -133,6 +133,18 @@ a[data-fancybox] {
                 @extend .img-placeholder;
                 background: url("../images/6.jpg") no-repeat;
             }
+            .seventh {
+                @extend .img-placeholder;
+                background: url("../images/7.jpg") no-repeat;
+            }
+            .eight {
+                @extend .img-placeholder;
+                background: url("../images/8.jpg") no-repeat;
+            }
+            .ninth {
+                @extend .img-placeholder;
+                background: url("../images/9.jpg") no-repeat;
+            }
             .img-placeholder {
                 height: 100%;
                 background-size: 180%;

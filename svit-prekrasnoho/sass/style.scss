@@ -139,7 +139,35 @@ a[data-fancybox] {
             }
             .eighth {
                 @extend .img-placeholder;
-                background: url("../images/8.jpg") no-repeat;
+                background: url("../images/8.jpg") no-repeat;  
+            }
+            .ninght {
+                @extend .img-placeholder;
+                background: url("../images/9.jpg") no-repeat;  
+            }
+            .tenth {
+                @extend .img-placeholder;
+                background: url("../images/10.jpg") no-repeat;  
+            }
+            .eleventh {
+                @extend .img-placeholder;
+                background: url("../images/11.jpg") no-repeat;  
+            }
+            .twelveth {
+                @extend .img-placeholder;
+                background: url("../images/12.jpg") no-repeat;  
+            }
+            .thirteenth {
+                @extend .img-placeholder;
+                background: url("../images/13.jpg") no-repeat;  
+            }
+            .fourteenth {
+                @extend .img-placeholder;
+                background: url("../images/14.jpg") no-repeat;  
+            }
+            .fifteenth {
+                @extend .img-placeholder;
+                background: url("../images/15.jpg") no-repeat;  
             }
             .img-placeholder {
                 height: 100%;
