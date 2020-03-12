@@ -32,6 +32,13 @@ header {
     padding: 0.25em;
     z-index: 10;
 
+    @media screen and (max-width:768px){
+        height: 80px !important;
+        .mini-logo {
+            max-height: 55px !important;
+        }
+    }
+    
     .justify-content-center {
         .col-12 {
             ul {
