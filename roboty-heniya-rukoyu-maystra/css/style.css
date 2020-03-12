@@ -214,7 +214,11 @@ a[data-fancybox] {
   background: url("../images/6.jpg") no-repeat;
 }
 /* line 136, ../sass/style.scss */
-.sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth {
+.sec1 .row .col-10 .seventh {
+  background: url("../images/7.jpg") no-repeat;
+}
+/* line 140, ../sass/style.scss */
+.sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh {
   height: 100%;
   background-size: 180%;
   background-position: center center;
@@ -222,36 +226,36 @@ a[data-fancybox] {
   transition: background-size .7s linear;
   box-shadow: inset 0 0 0 2px white;
 }
-/* line 144, ../sass/style.scss */
-.sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus {
+/* line 148, ../sass/style.scss */
+.sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus {
   background-size: 200%;
   transition: background-size 10s linear;
   box-shadow: 0 0 20px 0 black;
   z-index: 9;
 }
-/* line 150, ../sass/style.scss */
-.sec1 .row .col-10 .img-placeholder:hover .img-heading-caption, .sec1 .row .col-10 .first:hover .img-heading-caption, .sec1 .row .col-10 .second:hover .img-heading-caption, .sec1 .row .col-10 .third:hover .img-heading-caption, .sec1 .row .col-10 .fourth:hover .img-heading-caption, .sec1 .row .col-10 .fifth:hover .img-heading-caption, .sec1 .row .col-10 .sixth:hover .img-heading-caption, .sec1 .row .col-10 .img-placeholder:focus .img-heading-caption, .sec1 .row .col-10 .first:focus .img-heading-caption, .sec1 .row .col-10 .second:focus .img-heading-caption, .sec1 .row .col-10 .third:focus .img-heading-caption, .sec1 .row .col-10 .fourth:focus .img-heading-caption, .sec1 .row .col-10 .fifth:focus .img-heading-caption, .sec1 .row .col-10 .sixth:focus .img-heading-caption {
+/* line 154, ../sass/style.scss */
+.sec1 .row .col-10 .img-placeholder:hover .img-heading-caption, .sec1 .row .col-10 .first:hover .img-heading-caption, .sec1 .row .col-10 .second:hover .img-heading-caption, .sec1 .row .col-10 .third:hover .img-heading-caption, .sec1 .row .col-10 .fourth:hover .img-heading-caption, .sec1 .row .col-10 .fifth:hover .img-heading-caption, .sec1 .row .col-10 .sixth:hover .img-heading-caption, .sec1 .row .col-10 .seventh:hover .img-heading-caption, .sec1 .row .col-10 .img-placeholder:focus .img-heading-caption, .sec1 .row .col-10 .first:focus .img-heading-caption, .sec1 .row .col-10 .second:focus .img-heading-caption, .sec1 .row .col-10 .third:focus .img-heading-caption, .sec1 .row .col-10 .fourth:focus .img-heading-caption, .sec1 .row .col-10 .fifth:focus .img-heading-caption, .sec1 .row .col-10 .sixth:focus .img-heading-caption, .sec1 .row .col-10 .seventh:focus .img-heading-caption {
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 154, ../sass/style.scss */
-.sec1 .row .col-10 .img-placeholder:hover .img-caption, .sec1 .row .col-10 .first:hover .img-caption, .sec1 .row .col-10 .second:hover .img-caption, .sec1 .row .col-10 .third:hover .img-caption, .sec1 .row .col-10 .fourth:hover .img-caption, .sec1 .row .col-10 .fifth:hover .img-caption, .sec1 .row .col-10 .sixth:hover .img-caption, .sec1 .row .col-10 .img-placeholder:focus .img-caption, .sec1 .row .col-10 .first:focus .img-caption, .sec1 .row .col-10 .second:focus .img-caption, .sec1 .row .col-10 .third:focus .img-caption, .sec1 .row .col-10 .fourth:focus .img-caption, .sec1 .row .col-10 .fifth:focus .img-caption, .sec1 .row .col-10 .sixth:focus .img-caption {
+/* line 158, ../sass/style.scss */
+.sec1 .row .col-10 .img-placeholder:hover .img-caption, .sec1 .row .col-10 .first:hover .img-caption, .sec1 .row .col-10 .second:hover .img-caption, .sec1 .row .col-10 .third:hover .img-caption, .sec1 .row .col-10 .fourth:hover .img-caption, .sec1 .row .col-10 .fifth:hover .img-caption, .sec1 .row .col-10 .sixth:hover .img-caption, .sec1 .row .col-10 .seventh:hover .img-caption, .sec1 .row .col-10 .img-placeholder:focus .img-caption, .sec1 .row .col-10 .first:focus .img-caption, .sec1 .row .col-10 .second:focus .img-caption, .sec1 .row .col-10 .third:focus .img-caption, .sec1 .row .col-10 .fourth:focus .img-caption, .sec1 .row .col-10 .fifth:focus .img-caption, .sec1 .row .col-10 .sixth:focus .img-caption, .sec1 .row .col-10 .seventh:focus .img-caption {
   bottom: 0%;
 }
-/* line 160, ../sass/style.scss */
-.sec1 .row .col-10 .img-placeholder:hover .caption, .sec1 .row .col-10 .first:hover .caption, .sec1 .row .col-10 .second:hover .caption, .sec1 .row .col-10 .third:hover .caption, .sec1 .row .col-10 .fourth:hover .caption, .sec1 .row .col-10 .fifth:hover .caption, .sec1 .row .col-10 .sixth:hover .caption, .sec1 .row .col-10 .img-placeholder:focus .caption, .sec1 .row .col-10 .first:focus .caption, .sec1 .row .col-10 .second:focus .caption, .sec1 .row .col-10 .third:focus .caption, .sec1 .row .col-10 .fourth:focus .caption, .sec1 .row .col-10 .fifth:focus .caption, .sec1 .row .col-10 .sixth:focus .caption {
+/* line 164, ../sass/style.scss */
+.sec1 .row .col-10 .img-placeholder:hover .caption, .sec1 .row .col-10 .first:hover .caption, .sec1 .row .col-10 .second:hover .caption, .sec1 .row .col-10 .third:hover .caption, .sec1 .row .col-10 .fourth:hover .caption, .sec1 .row .col-10 .fifth:hover .caption, .sec1 .row .col-10 .sixth:hover .caption, .sec1 .row .col-10 .seventh:hover .caption, .sec1 .row .col-10 .img-placeholder:focus .caption, .sec1 .row .col-10 .first:focus .caption, .sec1 .row .col-10 .second:focus .caption, .sec1 .row .col-10 .third:focus .caption, .sec1 .row .col-10 .fourth:focus .caption, .sec1 .row .col-10 .fifth:focus .caption, .sec1 .row .col-10 .sixth:focus .caption, .sec1 .row .col-10 .seventh:focus .caption {
   left: 35px;
 }
 @media screen and (max-width: 576px) {
-  /* line 136, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth {
+  /* line 140, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh {
     background-size: cover;
   }
-  /* line 168, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover {
+  /* line 172, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover {
     background-size: cover;
   }
 }
-/* line 176, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .sec1 .row .col-10 .img-caption {
   line-height: 1.5;
   position: absolute;
@@ -261,7 +265,7 @@ a[data-fancybox] {
   transition: .3s linear;
   font-size: 14px;
 }
-/* line 186, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .sec1 .row .col-10 .img-heading-caption {
   position: relative;
   height: 100%;
@@ -269,7 +273,7 @@ a[data-fancybox] {
   background-color: transparent;
   transition: .3s linear;
 }
-/* line 193, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .sec1 .row .col-10 .img-heading-caption .caption {
   position: absolute;
   top: 40%;
@@ -277,7 +281,7 @@ a[data-fancybox] {
   transform: translateY(-40%);
   transition: .3s linear;
 }
-/* line 200, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 .sec1 .row .col-10 .img-heading-caption .caption h3 {
   font-size: 24px;
   color: white;
@@ -290,19 +294,19 @@ a[data-fancybox] {
     border: 1px solid lightgray;
     border-radius: 3px;
   }
-  /* line 215, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth {
+  /* line 219, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh {
     box-shadow: none;
   }
-  /* line 219, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth {
+  /* line 223, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh {
     background-size: cover;
   }
-  /* line 222, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus {
+  /* line 226, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus {
     background-size: cover;
   }
-  /* line 227, ../sass/style.scss */
+  /* line 231, ../sass/style.scss */
   .sec1 .row .col-10:hover, .sec1 .row .col-10:focus {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -310,11 +314,11 @@ a[data-fancybox] {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 237, ../sass/style.scss */
+  /* line 241, ../sass/style.scss */
   .sec1 .row .col-10 .caption {
     left: 35px !important;
   }
-  /* line 241, ../sass/style.scss */
+  /* line 245, ../sass/style.scss */
   .sec1 .row .col-10 .img-caption {
     line-height: 1.5;
     position: absolute;
@@ -333,19 +337,19 @@ a[data-fancybox] {
     border: 1px solid lightgray;
     border-radius: 3px;
   }
-  /* line 257, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth {
+  /* line 261, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh {
     box-shadow: none;
   }
-  /* line 261, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth {
+  /* line 265, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh {
     background-size: cover;
   }
-  /* line 264, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus {
+  /* line 268, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus {
     background-size: cover;
   }
-  /* line 269, ../sass/style.scss */
+  /* line 273, ../sass/style.scss */
   .sec1 .row .col-10:hover {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -353,11 +357,11 @@ a[data-fancybox] {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 279, ../sass/style.scss */
+  /* line 283, ../sass/style.scss */
   .sec1 .row .col-10 .caption {
     left: 35px !important;
   }
-  /* line 283, ../sass/style.scss */
+  /* line 287, ../sass/style.scss */
   .sec1 .row .col-10 .img-caption {
     line-height: 1.5;
     position: absolute;
@@ -373,15 +377,15 @@ a[data-fancybox] {
   .sec1 .row .col-10 {
     min-height: 80vh;
   }
-  /* line 297, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth {
+  /* line 301, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh {
     background-size: cover;
   }
-  /* line 300, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus {
+  /* line 304, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus {
     background-size: cover;
   }
-  /* line 305, ../sass/style.scss */
+  /* line 309, ../sass/style.scss */
   .sec1 .row .col-10:hover, .sec1 .row .col-10:focus {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -389,11 +393,11 @@ a[data-fancybox] {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 315, ../sass/style.scss */
+  /* line 319, ../sass/style.scss */
   .sec1 .row .col-10 .caption {
     left: 35px !important;
   }
-  /* line 319, ../sass/style.scss */
+  /* line 323, ../sass/style.scss */
   .sec1 .row .col-10 .img-caption {
     line-height: 1.5;
     position: absolute;
@@ -409,15 +413,15 @@ a[data-fancybox] {
   .sec1 .row .col-10 {
     min-height: 80vh;
   }
-  /* line 332, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth {
+  /* line 336, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh {
     background-size: cover;
   }
-  /* line 335, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus {
+  /* line 339, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus {
     background-size: cover;
   }
-  /* line 340, ../sass/style.scss */
+  /* line 344, ../sass/style.scss */
   .sec1 .row .col-10:hover, .sec1 .row .col-10:focus {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -425,11 +429,11 @@ a[data-fancybox] {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 350, ../sass/style.scss */
+  /* line 354, ../sass/style.scss */
   .sec1 .row .col-10 .caption {
     left: 35px !important;
   }
-  /* line 354, ../sass/style.scss */
+  /* line 358, ../sass/style.scss */
   .sec1 .row .col-10 .img-caption {
     line-height: 1.5;
     position: absolute;
@@ -441,7 +445,7 @@ a[data-fancybox] {
   }
 }
 
-/* line 367, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 .to-top {
   z-index: 99;
   position: fixed !important;
@@ -454,7 +458,7 @@ a[data-fancybox] {
   /*выравнивание содержимого элемента по центру */
   animation-fill-mode: both;
 }
-/* line 379, ../sass/style.scss */
+/* line 383, ../sass/style.scss */
 .to-top .btn {
   font-size: 30px;
   width: 50px;
@@ -467,19 +471,19 @@ a[data-fancybox] {
   color: #999999;
   /* цвет текста */
 }
-/* line 395, ../sass/style.scss */
+/* line 399, ../sass/style.scss */
 .to-top .btn:hover {
   box-shadow: 0px 2px 5px gray;
   color: #7e7e7e;
 }
 @media screen and (max-width: 576px) {
-  /* line 367, ../sass/style.scss */
+  /* line 371, ../sass/style.scss */
   .to-top {
     right: 30px;
     /* расстояние от правого края */
     bottom: 20px;
   }
-  /* line 405, ../sass/style.scss */
+  /* line 409, ../sass/style.scss */
   .to-top .btn {
     font-size: 24px;
     width: 40px;
