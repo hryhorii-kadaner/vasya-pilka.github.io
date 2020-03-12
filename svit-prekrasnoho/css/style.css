@@ -222,7 +222,35 @@ a[data-fancybox] {
   background: url("../images/8.jpg") no-repeat;
 }
 /* line 144, ../sass/style.scss */
-.sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth {
+.sec1 .row .col-10 .ninght {
+  background: url("../images/9.jpg") no-repeat;
+}
+/* line 148, ../sass/style.scss */
+.sec1 .row .col-10 .tenth {
+  background: url("../images/10.jpg") no-repeat;
+}
+/* line 152, ../sass/style.scss */
+.sec1 .row .col-10 .eleventh {
+  background: url("../images/11.jpg") no-repeat;
+}
+/* line 156, ../sass/style.scss */
+.sec1 .row .col-10 .twelveth {
+  background: url("../images/12.jpg") no-repeat;
+}
+/* line 160, ../sass/style.scss */
+.sec1 .row .col-10 .thirteenth {
+  background: url("../images/13.jpg") no-repeat;
+}
+/* line 164, ../sass/style.scss */
+.sec1 .row .col-10 .fourteenth {
+  background: url("../images/14.jpg") no-repeat;
+}
+/* line 168, ../sass/style.scss */
+.sec1 .row .col-10 .fifteenth {
+  background: url("../images/15.jpg") no-repeat;
+}
+/* line 172, ../sass/style.scss */
+.sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth, .sec1 .row .col-10 .ninght, .sec1 .row .col-10 .tenth, .sec1 .row .col-10 .eleventh, .sec1 .row .col-10 .twelveth, .sec1 .row .col-10 .thirteenth, .sec1 .row .col-10 .fourteenth, .sec1 .row .col-10 .fifteenth {
   height: 100%;
   background-size: 180%;
   background-position: center center;
@@ -230,36 +258,36 @@ a[data-fancybox] {
   transition: background-size .7s linear;
   box-shadow: inset 0 0 0 2px white;
 }
-/* line 152, ../sass/style.scss */
-.sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .eighth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus, .sec1 .row .col-10 .eighth:focus {
+/* line 180, ../sass/style.scss */
+.sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .eighth:hover, .sec1 .row .col-10 .ninght:hover, .sec1 .row .col-10 .tenth:hover, .sec1 .row .col-10 .eleventh:hover, .sec1 .row .col-10 .twelveth:hover, .sec1 .row .col-10 .thirteenth:hover, .sec1 .row .col-10 .fourteenth:hover, .sec1 .row .col-10 .fifteenth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus, .sec1 .row .col-10 .eighth:focus, .sec1 .row .col-10 .ninght:focus, .sec1 .row .col-10 .tenth:focus, .sec1 .row .col-10 .eleventh:focus, .sec1 .row .col-10 .twelveth:focus, .sec1 .row .col-10 .thirteenth:focus, .sec1 .row .col-10 .fourteenth:focus, .sec1 .row .col-10 .fifteenth:focus {
   background-size: 200%;
   transition: background-size 10s linear;
   box-shadow: 0 0 20px 0 black;
   z-index: 9;
 }
-/* line 158, ../sass/style.scss */
-.sec1 .row .col-10 .img-placeholder:hover .img-heading-caption, .sec1 .row .col-10 .first:hover .img-heading-caption, .sec1 .row .col-10 .second:hover .img-heading-caption, .sec1 .row .col-10 .third:hover .img-heading-caption, .sec1 .row .col-10 .fourth:hover .img-heading-caption, .sec1 .row .col-10 .fifth:hover .img-heading-caption, .sec1 .row .col-10 .sixth:hover .img-heading-caption, .sec1 .row .col-10 .seventh:hover .img-heading-caption, .sec1 .row .col-10 .eighth:hover .img-heading-caption, .sec1 .row .col-10 .img-placeholder:focus .img-heading-caption, .sec1 .row .col-10 .first:focus .img-heading-caption, .sec1 .row .col-10 .second:focus .img-heading-caption, .sec1 .row .col-10 .third:focus .img-heading-caption, .sec1 .row .col-10 .fourth:focus .img-heading-caption, .sec1 .row .col-10 .fifth:focus .img-heading-caption, .sec1 .row .col-10 .sixth:focus .img-heading-caption, .sec1 .row .col-10 .seventh:focus .img-heading-caption, .sec1 .row .col-10 .eighth:focus .img-heading-caption {
+/* line 186, ../sass/style.scss */
+.sec1 .row .col-10 .img-placeholder:hover .img-heading-caption, .sec1 .row .col-10 .first:hover .img-heading-caption, .sec1 .row .col-10 .second:hover .img-heading-caption, .sec1 .row .col-10 .third:hover .img-heading-caption, .sec1 .row .col-10 .fourth:hover .img-heading-caption, .sec1 .row .col-10 .fifth:hover .img-heading-caption, .sec1 .row .col-10 .sixth:hover .img-heading-caption, .sec1 .row .col-10 .seventh:hover .img-heading-caption, .sec1 .row .col-10 .eighth:hover .img-heading-caption, .sec1 .row .col-10 .ninght:hover .img-heading-caption, .sec1 .row .col-10 .tenth:hover .img-heading-caption, .sec1 .row .col-10 .eleventh:hover .img-heading-caption, .sec1 .row .col-10 .twelveth:hover .img-heading-caption, .sec1 .row .col-10 .thirteenth:hover .img-heading-caption, .sec1 .row .col-10 .fourteenth:hover .img-heading-caption, .sec1 .row .col-10 .fifteenth:hover .img-heading-caption, .sec1 .row .col-10 .img-placeholder:focus .img-heading-caption, .sec1 .row .col-10 .first:focus .img-heading-caption, .sec1 .row .col-10 .second:focus .img-heading-caption, .sec1 .row .col-10 .third:focus .img-heading-caption, .sec1 .row .col-10 .fourth:focus .img-heading-caption, .sec1 .row .col-10 .fifth:focus .img-heading-caption, .sec1 .row .col-10 .sixth:focus .img-heading-caption, .sec1 .row .col-10 .seventh:focus .img-heading-caption, .sec1 .row .col-10 .eighth:focus .img-heading-caption, .sec1 .row .col-10 .ninght:focus .img-heading-caption, .sec1 .row .col-10 .tenth:focus .img-heading-caption, .sec1 .row .col-10 .eleventh:focus .img-heading-caption, .sec1 .row .col-10 .twelveth:focus .img-heading-caption, .sec1 .row .col-10 .thirteenth:focus .img-heading-caption, .sec1 .row .col-10 .fourteenth:focus .img-heading-caption, .sec1 .row .col-10 .fifteenth:focus .img-heading-caption {
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 162, ../sass/style.scss */
-.sec1 .row .col-10 .img-placeholder:hover .img-caption, .sec1 .row .col-10 .first:hover .img-caption, .sec1 .row .col-10 .second:hover .img-caption, .sec1 .row .col-10 .third:hover .img-caption, .sec1 .row .col-10 .fourth:hover .img-caption, .sec1 .row .col-10 .fifth:hover .img-caption, .sec1 .row .col-10 .sixth:hover .img-caption, .sec1 .row .col-10 .seventh:hover .img-caption, .sec1 .row .col-10 .eighth:hover .img-caption, .sec1 .row .col-10 .img-placeholder:focus .img-caption, .sec1 .row .col-10 .first:focus .img-caption, .sec1 .row .col-10 .second:focus .img-caption, .sec1 .row .col-10 .third:focus .img-caption, .sec1 .row .col-10 .fourth:focus .img-caption, .sec1 .row .col-10 .fifth:focus .img-caption, .sec1 .row .col-10 .sixth:focus .img-caption, .sec1 .row .col-10 .seventh:focus .img-caption, .sec1 .row .col-10 .eighth:focus .img-caption {
+/* line 190, ../sass/style.scss */
+.sec1 .row .col-10 .img-placeholder:hover .img-caption, .sec1 .row .col-10 .first:hover .img-caption, .sec1 .row .col-10 .second:hover .img-caption, .sec1 .row .col-10 .third:hover .img-caption, .sec1 .row .col-10 .fourth:hover .img-caption, .sec1 .row .col-10 .fifth:hover .img-caption, .sec1 .row .col-10 .sixth:hover .img-caption, .sec1 .row .col-10 .seventh:hover .img-caption, .sec1 .row .col-10 .eighth:hover .img-caption, .sec1 .row .col-10 .ninght:hover .img-caption, .sec1 .row .col-10 .tenth:hover .img-caption, .sec1 .row .col-10 .eleventh:hover .img-caption, .sec1 .row .col-10 .twelveth:hover .img-caption, .sec1 .row .col-10 .thirteenth:hover .img-caption, .sec1 .row .col-10 .fourteenth:hover .img-caption, .sec1 .row .col-10 .fifteenth:hover .img-caption, .sec1 .row .col-10 .img-placeholder:focus .img-caption, .sec1 .row .col-10 .first:focus .img-caption, .sec1 .row .col-10 .second:focus .img-caption, .sec1 .row .col-10 .third:focus .img-caption, .sec1 .row .col-10 .fourth:focus .img-caption, .sec1 .row .col-10 .fifth:focus .img-caption, .sec1 .row .col-10 .sixth:focus .img-caption, .sec1 .row .col-10 .seventh:focus .img-caption, .sec1 .row .col-10 .eighth:focus .img-caption, .sec1 .row .col-10 .ninght:focus .img-caption, .sec1 .row .col-10 .tenth:focus .img-caption, .sec1 .row .col-10 .eleventh:focus .img-caption, .sec1 .row .col-10 .twelveth:focus .img-caption, .sec1 .row .col-10 .thirteenth:focus .img-caption, .sec1 .row .col-10 .fourteenth:focus .img-caption, .sec1 .row .col-10 .fifteenth:focus .img-caption {
   bottom: 0%;
 }
-/* line 168, ../sass/style.scss */
-.sec1 .row .col-10 .img-placeholder:hover .caption, .sec1 .row .col-10 .first:hover .caption, .sec1 .row .col-10 .second:hover .caption, .sec1 .row .col-10 .third:hover .caption, .sec1 .row .col-10 .fourth:hover .caption, .sec1 .row .col-10 .fifth:hover .caption, .sec1 .row .col-10 .sixth:hover .caption, .sec1 .row .col-10 .seventh:hover .caption, .sec1 .row .col-10 .eighth:hover .caption, .sec1 .row .col-10 .img-placeholder:focus .caption, .sec1 .row .col-10 .first:focus .caption, .sec1 .row .col-10 .second:focus .caption, .sec1 .row .col-10 .third:focus .caption, .sec1 .row .col-10 .fourth:focus .caption, .sec1 .row .col-10 .fifth:focus .caption, .sec1 .row .col-10 .sixth:focus .caption, .sec1 .row .col-10 .seventh:focus .caption, .sec1 .row .col-10 .eighth:focus .caption {
+/* line 196, ../sass/style.scss */
+.sec1 .row .col-10 .img-placeholder:hover .caption, .sec1 .row .col-10 .first:hover .caption, .sec1 .row .col-10 .second:hover .caption, .sec1 .row .col-10 .third:hover .caption, .sec1 .row .col-10 .fourth:hover .caption, .sec1 .row .col-10 .fifth:hover .caption, .sec1 .row .col-10 .sixth:hover .caption, .sec1 .row .col-10 .seventh:hover .caption, .sec1 .row .col-10 .eighth:hover .caption, .sec1 .row .col-10 .ninght:hover .caption, .sec1 .row .col-10 .tenth:hover .caption, .sec1 .row .col-10 .eleventh:hover .caption, .sec1 .row .col-10 .twelveth:hover .caption, .sec1 .row .col-10 .thirteenth:hover .caption, .sec1 .row .col-10 .fourteenth:hover .caption, .sec1 .row .col-10 .fifteenth:hover .caption, .sec1 .row .col-10 .img-placeholder:focus .caption, .sec1 .row .col-10 .first:focus .caption, .sec1 .row .col-10 .second:focus .caption, .sec1 .row .col-10 .third:focus .caption, .sec1 .row .col-10 .fourth:focus .caption, .sec1 .row .col-10 .fifth:focus .caption, .sec1 .row .col-10 .sixth:focus .caption, .sec1 .row .col-10 .seventh:focus .caption, .sec1 .row .col-10 .eighth:focus .caption, .sec1 .row .col-10 .ninght:focus .caption, .sec1 .row .col-10 .tenth:focus .caption, .sec1 .row .col-10 .eleventh:focus .caption, .sec1 .row .col-10 .twelveth:focus .caption, .sec1 .row .col-10 .thirteenth:focus .caption, .sec1 .row .col-10 .fourteenth:focus .caption, .sec1 .row .col-10 .fifteenth:focus .caption {
   left: 35px;
 }
 @media screen and (max-width: 576px) {
-  /* line 144, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth {
+  /* line 172, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth, .sec1 .row .col-10 .ninght, .sec1 .row .col-10 .tenth, .sec1 .row .col-10 .eleventh, .sec1 .row .col-10 .twelveth, .sec1 .row .col-10 .thirteenth, .sec1 .row .col-10 .fourteenth, .sec1 .row .col-10 .fifteenth {
     background-size: cover;
   }
-  /* line 176, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .eighth:hover {
+  /* line 204, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .eighth:hover, .sec1 .row .col-10 .ninght:hover, .sec1 .row .col-10 .tenth:hover, .sec1 .row .col-10 .eleventh:hover, .sec1 .row .col-10 .twelveth:hover, .sec1 .row .col-10 .thirteenth:hover, .sec1 .row .col-10 .fourteenth:hover, .sec1 .row .col-10 .fifteenth:hover {
     background-size: cover;
   }
 }
-/* line 184, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .sec1 .row .col-10 .img-caption {
   line-height: 1.5;
   position: absolute;
@@ -269,7 +297,7 @@ a[data-fancybox] {
   transition: .3s linear;
   font-size: 14px;
 }
-/* line 194, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .sec1 .row .col-10 .img-heading-caption {
   position: relative;
   height: 100%;
@@ -277,7 +305,7 @@ a[data-fancybox] {
   background-color: transparent;
   transition: .3s linear;
 }
-/* line 201, ../sass/style.scss */
+/* line 229, ../sass/style.scss */
 .sec1 .row .col-10 .img-heading-caption .caption {
   position: absolute;
   top: 40%;
@@ -285,7 +313,7 @@ a[data-fancybox] {
   transform: translateY(-40%);
   transition: .3s linear;
 }
-/* line 208, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .sec1 .row .col-10 .img-heading-caption .caption h3 {
   font-size: 24px;
   color: white;
@@ -298,19 +326,19 @@ a[data-fancybox] {
     border: 1px solid lightgray;
     border-radius: 3px;
   }
-  /* line 223, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth {
+  /* line 251, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth, .sec1 .row .col-10 .ninght, .sec1 .row .col-10 .tenth, .sec1 .row .col-10 .eleventh, .sec1 .row .col-10 .twelveth, .sec1 .row .col-10 .thirteenth, .sec1 .row .col-10 .fourteenth, .sec1 .row .col-10 .fifteenth {
     box-shadow: none;
   }
-  /* line 227, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth {
+  /* line 255, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth, .sec1 .row .col-10 .ninght, .sec1 .row .col-10 .tenth, .sec1 .row .col-10 .eleventh, .sec1 .row .col-10 .twelveth, .sec1 .row .col-10 .thirteenth, .sec1 .row .col-10 .fourteenth, .sec1 .row .col-10 .fifteenth {
     background-size: cover;
   }
-  /* line 230, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .eighth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus, .sec1 .row .col-10 .eighth:focus {
+  /* line 258, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .eighth:hover, .sec1 .row .col-10 .ninght:hover, .sec1 .row .col-10 .tenth:hover, .sec1 .row .col-10 .eleventh:hover, .sec1 .row .col-10 .twelveth:hover, .sec1 .row .col-10 .thirteenth:hover, .sec1 .row .col-10 .fourteenth:hover, .sec1 .row .col-10 .fifteenth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus, .sec1 .row .col-10 .eighth:focus, .sec1 .row .col-10 .ninght:focus, .sec1 .row .col-10 .tenth:focus, .sec1 .row .col-10 .eleventh:focus, .sec1 .row .col-10 .twelveth:focus, .sec1 .row .col-10 .thirteenth:focus, .sec1 .row .col-10 .fourteenth:focus, .sec1 .row .col-10 .fifteenth:focus {
     background-size: cover;
   }
-  /* line 235, ../sass/style.scss */
+  /* line 263, ../sass/style.scss */
   .sec1 .row .col-10:hover, .sec1 .row .col-10:focus {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -318,11 +346,11 @@ a[data-fancybox] {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 245, ../sass/style.scss */
+  /* line 273, ../sass/style.scss */
   .sec1 .row .col-10 .caption {
     left: 35px !important;
   }
-  /* line 249, ../sass/style.scss */
+  /* line 277, ../sass/style.scss */
   .sec1 .row .col-10 .img-caption {
     line-height: 1.5;
     position: absolute;
@@ -341,19 +369,19 @@ a[data-fancybox] {
     border: 1px solid lightgray;
     border-radius: 3px;
   }
-  /* line 265, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth {
+  /* line 293, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth, .sec1 .row .col-10 .ninght, .sec1 .row .col-10 .tenth, .sec1 .row .col-10 .eleventh, .sec1 .row .col-10 .twelveth, .sec1 .row .col-10 .thirteenth, .sec1 .row .col-10 .fourteenth, .sec1 .row .col-10 .fifteenth {
     box-shadow: none;
   }
-  /* line 269, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth {
+  /* line 297, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth, .sec1 .row .col-10 .ninght, .sec1 .row .col-10 .tenth, .sec1 .row .col-10 .eleventh, .sec1 .row .col-10 .twelveth, .sec1 .row .col-10 .thirteenth, .sec1 .row .col-10 .fourteenth, .sec1 .row .col-10 .fifteenth {
     background-size: cover;
   }
-  /* line 272, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .eighth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus, .sec1 .row .col-10 .eighth:focus {
+  /* line 300, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .eighth:hover, .sec1 .row .col-10 .ninght:hover, .sec1 .row .col-10 .tenth:hover, .sec1 .row .col-10 .eleventh:hover, .sec1 .row .col-10 .twelveth:hover, .sec1 .row .col-10 .thirteenth:hover, .sec1 .row .col-10 .fourteenth:hover, .sec1 .row .col-10 .fifteenth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus, .sec1 .row .col-10 .eighth:focus, .sec1 .row .col-10 .ninght:focus, .sec1 .row .col-10 .tenth:focus, .sec1 .row .col-10 .eleventh:focus, .sec1 .row .col-10 .twelveth:focus, .sec1 .row .col-10 .thirteenth:focus, .sec1 .row .col-10 .fourteenth:focus, .sec1 .row .col-10 .fifteenth:focus {
     background-size: cover;
   }
-  /* line 277, ../sass/style.scss */
+  /* line 305, ../sass/style.scss */
   .sec1 .row .col-10:hover {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -361,11 +389,11 @@ a[data-fancybox] {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 287, ../sass/style.scss */
+  /* line 315, ../sass/style.scss */
   .sec1 .row .col-10 .caption {
     left: 35px !important;
   }
-  /* line 291, ../sass/style.scss */
+  /* line 319, ../sass/style.scss */
   .sec1 .row .col-10 .img-caption {
     line-height: 1.5;
     position: absolute;
@@ -381,15 +409,15 @@ a[data-fancybox] {
   .sec1 .row .col-10 {
     min-height: 80vh;
   }
-  /* line 305, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth {
+  /* line 333, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth, .sec1 .row .col-10 .ninght, .sec1 .row .col-10 .tenth, .sec1 .row .col-10 .eleventh, .sec1 .row .col-10 .twelveth, .sec1 .row .col-10 .thirteenth, .sec1 .row .col-10 .fourteenth, .sec1 .row .col-10 .fifteenth {
     background-size: cover;
   }
-  /* line 308, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .eighth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus, .sec1 .row .col-10 .eighth:focus {
+  /* line 336, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .eighth:hover, .sec1 .row .col-10 .ninght:hover, .sec1 .row .col-10 .tenth:hover, .sec1 .row .col-10 .eleventh:hover, .sec1 .row .col-10 .twelveth:hover, .sec1 .row .col-10 .thirteenth:hover, .sec1 .row .col-10 .fourteenth:hover, .sec1 .row .col-10 .fifteenth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus, .sec1 .row .col-10 .eighth:focus, .sec1 .row .col-10 .ninght:focus, .sec1 .row .col-10 .tenth:focus, .sec1 .row .col-10 .eleventh:focus, .sec1 .row .col-10 .twelveth:focus, .sec1 .row .col-10 .thirteenth:focus, .sec1 .row .col-10 .fourteenth:focus, .sec1 .row .col-10 .fifteenth:focus {
     background-size: cover;
   }
-  /* line 313, ../sass/style.scss */
+  /* line 341, ../sass/style.scss */
   .sec1 .row .col-10:hover, .sec1 .row .col-10:focus {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -397,11 +425,11 @@ a[data-fancybox] {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 323, ../sass/style.scss */
+  /* line 351, ../sass/style.scss */
   .sec1 .row .col-10 .caption {
     left: 35px !important;
   }
-  /* line 327, ../sass/style.scss */
+  /* line 355, ../sass/style.scss */
   .sec1 .row .col-10 .img-caption {
     line-height: 1.5;
     position: absolute;
@@ -417,15 +445,15 @@ a[data-fancybox] {
   .sec1 .row .col-10 {
     min-height: 80vh;
   }
-  /* line 340, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth {
+  /* line 368, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder, .sec1 .row .col-10 .first, .sec1 .row .col-10 .second, .sec1 .row .col-10 .third, .sec1 .row .col-10 .fourth, .sec1 .row .col-10 .fifth, .sec1 .row .col-10 .sixth, .sec1 .row .col-10 .seventh, .sec1 .row .col-10 .eighth, .sec1 .row .col-10 .ninght, .sec1 .row .col-10 .tenth, .sec1 .row .col-10 .eleventh, .sec1 .row .col-10 .twelveth, .sec1 .row .col-10 .thirteenth, .sec1 .row .col-10 .fourteenth, .sec1 .row .col-10 .fifteenth {
     background-size: cover;
   }
-  /* line 343, ../sass/style.scss */
-  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .eighth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus, .sec1 .row .col-10 .eighth:focus {
+  /* line 371, ../sass/style.scss */
+  .sec1 .row .col-10 .img-placeholder:hover, .sec1 .row .col-10 .first:hover, .sec1 .row .col-10 .second:hover, .sec1 .row .col-10 .third:hover, .sec1 .row .col-10 .fourth:hover, .sec1 .row .col-10 .fifth:hover, .sec1 .row .col-10 .sixth:hover, .sec1 .row .col-10 .seventh:hover, .sec1 .row .col-10 .eighth:hover, .sec1 .row .col-10 .ninght:hover, .sec1 .row .col-10 .tenth:hover, .sec1 .row .col-10 .eleventh:hover, .sec1 .row .col-10 .twelveth:hover, .sec1 .row .col-10 .thirteenth:hover, .sec1 .row .col-10 .fourteenth:hover, .sec1 .row .col-10 .fifteenth:hover, .sec1 .row .col-10 .img-placeholder:focus, .sec1 .row .col-10 .first:focus, .sec1 .row .col-10 .second:focus, .sec1 .row .col-10 .third:focus, .sec1 .row .col-10 .fourth:focus, .sec1 .row .col-10 .fifth:focus, .sec1 .row .col-10 .sixth:focus, .sec1 .row .col-10 .seventh:focus, .sec1 .row .col-10 .eighth:focus, .sec1 .row .col-10 .ninght:focus, .sec1 .row .col-10 .tenth:focus, .sec1 .row .col-10 .eleventh:focus, .sec1 .row .col-10 .twelveth:focus, .sec1 .row .col-10 .thirteenth:focus, .sec1 .row .col-10 .fourteenth:focus, .sec1 .row .col-10 .fifteenth:focus {
     background-size: cover;
   }
-  /* line 348, ../sass/style.scss */
+  /* line 376, ../sass/style.scss */
   .sec1 .row .col-10:hover, .sec1 .row .col-10:focus {
     transform: scale(1);
     -ms-transform: scale(1);
@@ -433,11 +461,11 @@ a[data-fancybox] {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 358, ../sass/style.scss */
+  /* line 386, ../sass/style.scss */
   .sec1 .row .col-10 .caption {
     left: 35px !important;
   }
-  /* line 362, ../sass/style.scss */
+  /* line 390, ../sass/style.scss */
   .sec1 .row .col-10 .img-caption {
     line-height: 1.5;
     position: absolute;
@@ -449,7 +477,7 @@ a[data-fancybox] {
   }
 }
 
-/* line 375, ../sass/style.scss */
+/* line 403, ../sass/style.scss */
 .to-top {
   z-index: 99;
   position: fixed !important;
@@ -462,7 +490,7 @@ a[data-fancybox] {
   /*выравнивание содержимого элемента по центру */
   animation-fill-mode: both;
 }
-/* line 387, ../sass/style.scss */
+/* line 415, ../sass/style.scss */
 .to-top .btn {
   font-size: 30px;
   width: 50px;
@@ -475,19 +503,19 @@ a[data-fancybox] {
   color: #999999;
   /* цвет текста */
 }
-/* line 403, ../sass/style.scss */
+/* line 431, ../sass/style.scss */
 .to-top .btn:hover {
   box-shadow: 0px 2px 5px gray;
   color: #7e7e7e;
 }
 @media screen and (max-width: 576px) {
-  /* line 375, ../sass/style.scss */
+  /* line 403, ../sass/style.scss */
   .to-top {
     right: 30px;
     /* расстояние от правого края */
     bottom: 20px;
   }
-  /* line 413, ../sass/style.scss */
+  /* line 441, ../sass/style.scss */
   .to-top .btn {
     font-size: 24px;
     width: 40px;
