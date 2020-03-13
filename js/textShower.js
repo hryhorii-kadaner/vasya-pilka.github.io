@@ -19,6 +19,3 @@ textCollapser.onclick = $(function () {
 function goToKneuDpUa() {
     window.location.href = '//kneu.dp.ua/ua';
 }
-function goToKrGovUa() {
-    window.location.href = '//kr.gov.ua';
-}
