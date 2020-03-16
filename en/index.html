@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158193212-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158193212-2');
+    </script>
+
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="pgwCss/pgwslider.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/smoothScrillongToSections.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
+    <script src="js/pgwslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.pgwSlider').pgwSlider({
+                autoSlide: false,
+                adaptiveHeight: true,
+                adaptiveDuration: 200,
+                transitionDuration: 200,
+                maxHeight: 500,
+                displayControls: false
+            });
+        });
+    </script>
+    <script src="js/smoothScrolling.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <title>Vasyl Pilka | Main </title>
+    <meta name="google-site-verification" content="4oMJj0ZiEOodc84nzf47rRYx0r3CKoxPGrEhaaLvMqg" />
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v6.0&appId=374281786699723&autoLogAppEvents=1">
+    </script>
+    <header class="container-fluid" id="navigMenu">
+        <div class="row justify-content-center hidden-on-sm">
+            <div class="main-sec container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="centred-top w-100 text-center mt-4 backToHomePage" onclick="backToHomePage();">
+                        <img src="images/logo.png" alt="" class="logo-img" style="cursor: pointer;">
+                        <img src="images/vasyl.png" alt="" class="vasyl-img" style="cursor: pointer;">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 text-center mt-5 mb-4">
+                <ul class="mx-auto mt-4">
+                    <li><a href="#portfolio" id="toPortfolioFirst">Portfolio</a></li>
+                    <li><a href="#gallerey" id="toGallereyFirst">Gallery</a></li>
+                    <li><a href="#contacts" id="toContactsFirst">Contacts</a></li>
+                </ul>
+            </div>  
+        </div>
+        <div class="row">
+            <img src="images/vasyl.png" alt="" class="hidden-on-lg mini-logo backToHomePage"
+                onclick="backToHomePage();" style="cursor: pointer;">
+            <button class="btn" id="menuShower"> <span class="hidden-on-sm">Menu</span> &nbsp;
+                <i class="far fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="container-fluid menuOnClick p-0 wow" id="menu" data-wow-duration="1s">
+        <div class="row m-0">
+            <div class="main-content mw320">
+                <button class="btn closeBtn" id="menuCloser">
+                    <i class="fal fa-times"></i>
+                </button>
+                <div class="menu-title pt-5 mb-5">
+                    <img src="images/menu.png" alt="" class="w-50">
+                </div>
+                <hr class="text-slicer">
+                <div class="menu-links mt-5">
+                    <ul>
+                        <li><a href="#portfolio" id="toPortfolioSecond">Portfolio</a></li>
+                        <li><a href="#gallerey" id="toGallereySecond">Gallery</a></li>
+                        <li><a href="#contacts" id="toContactsSecond">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="js/showMenu.js"></script>
+    </div>
+
+    <section class="sec1 container-fluid">
+        <div id="slides" class="mx-auto">
+            <div class="slide showing">
+            </div>
+            <div class="slide">
+            </div>
+            <div class="slide">
+            </div>
+        </div>
+        <script src="js/slider.js"></script>
+    </section>
+    <hr class="text-slicer">
+    <section class="sec2 container-fluid mw992" id="portfolio">
+        <div class="row align-text-center lh-2">
+            <h3 class="mt-4 mb-4 mx-auto pfolio">Portfolio</h3>
+            <div class="main grayscale100">
+                <ul class="pgwSlider">
+                    <li>
+                        <img src="images/1.jpg">
+                        <!-- <span>«Image caption»</span> -->
+                    </li>
+
+                    <li>
+                        <img src="images/2.jpg">
+                        <!-- <span>«Image caption»</span> -->
+                    </li>
+
+                    <li>
+                        <img src="images/3.jpg">
+                        <!-- <span>«Image caption»</span> -->
+                    </li>
+
+                    <li>
+                        <img src="images/4.jpg">
+                        <!-- <span>«Image caption»</span> -->
+                    </li>
+                </ul>
+            </div>
+            <div class="mt-4 text-center mx-auto quote-text-cont mw768">
+                <h3 class="quote-text">&quot;The Engraving on Glass – the Frozen Eternity in All Its
+                    Depth and Fragility ...&quot;</h3>
+                <span class="author float-right mt-3 pr-3">Vasyl Pilka</span>
+            </div>
+        </div>
+        <hr class="text-slicer">
+        <div class="row text-justify align-items-center lh-2 images-cont ">
+
+            <div class="col-12 mx-auto col-md-8 text-dark bg-none p-0 order-1 order-md-0">
+                <h3 class="p-3">To conquer the world of glass!</h3>
+
+                <p class="p-3">To make glass to be obedient to the hands of Master.
+                    To cut the engravings in glass as on copper, as in a tree.
+                    It was an ambitious goal. Vasyl began to realize it with a
+                    great enthusiasm. The glass subjected not at once. Long
+                    years of researches and experiments. <div class="pl-3 pr-3">The capricious material crushed by dust, embossed
+                        eyes, exploded into face by the splinters of practically
+                        completed works.<button
+                            class="p-0 btn btn-outline-dark d-md-none" id="textCollapser" data-toggle="collapse"
+                            data-target="#collapseText"><i class="fal fa-angle-down" id="angleDown"></i><i
+                                class="fal fa-angle-up d-none" id="angleTop"></i></button></div>
+                    <div class="d-none d-md-block ml-3 mr-3 pt-2">But Ukrainian steel-maker, the experienced mechanic,
+                        the descendant of the Transcarpathia masters didn’t
+                        give up. And here the completed works became to
+                        appear from under the hand of the Master. The magic
+                        glass played by its fanciful reflections.
+                        <br>
+                        <div class="pt-2"> The unique technology of Vasyl Pilka permits to work
+                            with glass as with the plastic material. The
+                            understanding of physics and chemistry of materials
+                            allowed create the author’s (original) complex of the
+                            approaches, methods and techniques of the artistic
+                            carving on the glass massive by the diamond. At the
+                            present time Vasyl Pilka made more than three hundred
+                            works. Among them are both the original works and the
+                            engravings’ copies of the great masters of the past. The
+                            new horizons, goals, tasks, new projects and discoveries
+                            are ahead.</div>
+                    </div>
+                    <div class="collapse sarh d-md-none m-0 mt-0 mt-lg-3" id="collapseText">
+                        <div class="card p-3 pt-2" id="hiddenTextOnLg"> But Ukrainian steel-maker, the experienced mechanic,
+                            the descendant of the Transcarpathia masters didn’t
+                            give up. And here the completed works became to
+                            appear from under the hand of the Master. The magic
+                            glass played by its fanciful reflections.
+                            <div class="pt-2"> The unique technology of Vasyl Pilka permits to work
+                                with glass as with the plastic material. The
+                                understanding of physics and chemistry of materials
+                                allowed create the author’s (original) complex of the
+                                approaches, methods and techniques of the artistic
+                                carving on the glass massive by the diamond. At the
+                                present time Vasyl Pilka made more than three hundred
+                                works. Among them are both the original works and the
+                                engravings’ copies of the great masters of the past. The
+                                new horizons, goals, tasks, new projects and discoveries
+                                are ahead.</div>
+                        </div>
+                    </div>
+                    <br>
+                    <a href="pro-mene/" target="_blank" class="btn box-shadow-underlined br-none ml-3">READ MORE
+                        &nbsp;<i class="fal fa-long-arrow-right"></i></a>
+                </p>
+                <script src="js/textShower.js"></script>
+            </div>
+
+            <div class="col-10 mx-auto text-center col-md-4 h-100 order-0 order-md-1 p-0 grayscale100">
+                <div class="fb-page" data-href="https://www.facebook.com/VasylPilka" data-tabs="timeline" data-width=""
+                    data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                    data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/VasylPilka" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/VasylPilka">Vasyl Pilka</a></blockquote>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var TIMEOUT = null;
+
+                $(window).on('resize', function () {
+                    if (TIMEOUT === null) {
+                        TIMEOUT = window.setTimeout(function () {
+                            TIMEOUT = null;
+                            $('.fb-page').removeClass('fb_iframe_widget fb_iframe_widget_fluid');
+
+                            FB.XFBML.parse();
+                        }, 300);
+                    }
+                });
+            </script>
+        </div>
+    </section>
+    <section class="sec3 container-fluid mw768 grayscale100 lh-2" id="gallerey">
+        <div class="col-12">
+            <h2 class="gallerey-heading">Gallery</h2>
+        </div>
+        <div class="row justify-content-center align-items-center mt-0 mt-5 mt-md-0 p-3 p-md-0">
+            <!-- first -->
+            <div class="col-10 col-sm-8 col-md-6 col-xl-6 img-placeholder img-placeholder-colorful-ukraine mh30vh p-0">
+                <div class="centerd-img-hover-wrapper" onclick="firstLink();">
+                    <div class="logo-start"></div>
+                    <div class="logo-end"></div>
+                </div>
+
+
+            </div>
+
+            <div class="col-10 col-sm-8 col-md-6 col-xl-6 text-justify p-0 pl-md-3 pt-3 pt-md-0 pr-md-3">
+                <h3>Multi-Coloured Ukraine</h3>
+                <p>Vasyl Pilka traveled much around Ukraine. He met the
+                    characteristic features of the deep spirituality, respect
+                    for the historical past everywhere, in any its corner. The
+                    image of a mother and a child has a special status in the
+                    mentality of the Ukrainian nation. These very images
+                    have become the main ones in the series of works under
+                    the general name &quot;Multi-Coloured Ukraine&quot;.
+                    <br>
+                    <a href="multi-coloured-ukraine/" target="_blank" class="btn box-shadow-underlined br-none">READ MORE
+                        &nbsp;<i class="fal fa-long-arrow-right"></i></a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center align-items-center mt-0 mt-5 mt-md-0 p-3 p-md-0">
+            <!-- second -->
+            <div
+                class="col-10 col-sm-8 col-md-6 col-xl-6 text-justify order-1 order-md-0 p-0 pl-md-3 pt-3 pt-md-0 pr-md-3">
+                <h3>Works of Genius <br class="d-sm-none">  by Master&#39;s Hand</h3>
+
+                <p>The separate influence on the creativeness of Vasyl Pilka
+                    was created by the legacy of the great genius of the
+                    past, the invincible master of the xylography Albrecht
+                    Durer. The engravings of the medieval artist have
+                    become the challenge to his capabilities for the modern
+                    master at the same time…
+                    <br>
+                    <a href="works-of-genius-by-masters-hand/" target="_blank"
+                        class="btn box-shadow-underlined br-none">READ MORE &nbsp;<i
+                            class="fal fa-long-arrow-right"></i></a>
+                </p>
+            </div>
+
+            <div
+                class="col-10 col-sm-8 col-md-6 col-xl-6 img-placeholder img-placeholder-works-of-genious mh30vh order-0 order-md-1 p-0">
+                <div class="centerd-img-hover-wrapper" onclick="secondLink();">
+                    <div class="logo-start"></div>
+                    <div class="logo-end"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center align-items-center mt-0 mt-5 mt-md-0 p-3 p-md-0">
+            <!-- third -->
+            <div class="col-10 col-sm-8 col-md-6 col-xl-6 img-placeholder img-placeholder-spirituality mh30vh p-0">
+                <div class="centerd-img-hover-wrapper" onclick="thirdLink();">
+                    <div class="logo-start"></div>
+                    <div class="logo-end"></div>
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-8 col-md-6 col-xl-6 text-justify p-0 pl-md-3 pt-3 pt-md-0 pr-md-3">
+                <h3>Spirituality</h3>
+                <p>Since his childhood, Vasyl Pilka was brought up in the
+                    high spirituality’s environment of the Ukrainian people. It could not but affect his creative work. The master
+                    takes the creation of icons or the spiritual topics with
+                    great responsibility.
+                    <br>
+                    <a href="spirituality/" target="_blank" class="btn box-shadow-underlined br-none">READ MORE &nbsp;<i
+                            class="fal fa-long-arrow-right"></i></a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center align-items-center mt-0 mt-5 mt-md-0 p-3 p-md-0">
+            <!-- fourth -->
+            <div
+                class="col-10 col-sm-8 col-md-6 col-xl-6 text-justify order-1 order-md-0 p-0 pl-md-3 pt-3 pt-md-0 pr-md-3">
+                <h3>Faith</h3>
+
+                <p>The creation of a series of works &quot;Faith&quot; was dedicated
+                    by Vasyl Pilka to the eternal Evangelical subject - the
+                    cross way of the Jesus. These works impress by their
+                    dynamics, dramatism and, at the same time, are full of
+                    faith.
+                    <br>
+                    <a href="faith/" target="_blank" class="btn box-shadow-underlined br-none">READ MORE &nbsp;<i
+                            class="fal fa-long-arrow-right"></i></a>
+                </p>
+            </div>
+
+            <div
+                class="col-10 col-sm-8 col-md-6 col-xl-6 img-placeholder img-placeholder-faith mh30vh order-0 order-md-1 p-0">
+
+                <div class="centerd-img-hover-wrapper" onclick="fourthLink();">
+                    <div class="logo-start"></div>
+                    <div class="logo-end"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center mt-0 mt-5 mt-md-0 p-3 p-md-0">
+            <!-- fifth -->
+            <div class="col-10 col-sm-8 col-md-6 col-xl-6 img-placeholder img-placeholder-beautiful-world mh30vh p-0">
+
+                <div class="centerd-img-hover-wrapper" onclick="fifthLink();">
+                    <div class="logo-start"></div>
+                    <div class="logo-end"></div>
+                </div>
+
+            </div>
+
+            <div class="col-10 col-sm-8 col-md-6 col-xl-6 text-justify p-0 pl-md-3 pt-3 pt-md-0 pr-md-3">
+                <h3>World of Beauty</h3>
+                <p>The environment, surrounding us, is filled with different
+                    shapes and colours. We do not often look attentively at
+                    the details in the flow of the vigorous events, enriched
+                    life. We are looking more superficially at our everyday
+                    life. We snatch from the context only what we need at
+                    the particular moment.
+                    <br>
+                    <a href="world-of-beauty/" target="_blank" class="btn box-shadow-underlined br-none">READ MORE
+                        &nbsp;<i class="fal fa-long-arrow-right"></i></a>
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="row justify-content-center align-items-center mt-0 mt-5 mt-md-0 p-3 p-md-0">
+            <!-- six -->
+            <div
+                class="col-10 col-sm-8 col-md-6 col-xl-6 text-justify order-1 order-md-0 p-0 pl-md-3 pt-3 pt-md-0 pr-md-3">
+                <h3>Architecture</h3>
+                <p>Architecture – is the frozen music. Being a creative
+                    person, Vasyl Pilka could not but pay an attention to
+                    such a rich subject, according to its form. The
+                    architecture reflects the contents of the era. We see
+                    the pulse of life namely via the symbolism of lines.
+                    <br>
+                    <a href="architecture/" target="_blank" class="btn box-shadow-underlined br-none">READ MORE
+                        &nbsp;<i class="fal fa-long-arrow-right"></i></a>
+                </p>
+            </div>
+
+            <div
+                class="col-10 col-sm-8 col-md-6 col-xl-6 img-placeholder img-placeholder-architecture mh30vh order-0 order-md-1 p-0">
+                <div class="centerd-img-hover-wrapper" onclick="sixthLink();">
+                    <div class="logo-start"></div>
+                    <div class="logo-end"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center mt-0 mt-5 mt-md-0 p-3 p-md-0">
+            <!-- seven -->
+            <div class="col-10 col-sm-8 col-md-6 col-xl-6 img-placeholder img-placeholder-world-of-glass mh30vh p-0">
+                <div class="centerd-img-hover-wrapper" onclick="seventhLink();">
+                    <div class="logo-start"></div>
+                    <div class="logo-end"></div>
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-8 col-md-6 col-xl-6 text-justify p-0 pl-md-3 pt-3 pt-md-0 pr-md-3">
+                <h3>World of Glass</h3>
+                <p>Magic glass. It is so simple and so complex, so similar
+                    and so different. It’s the whole world. The glass can be
+                    an item of everyday life, a building material, a tool, a
+                    work of art. Vasyl Pilka saw the very such a world of
+                    glass.
+                    <br>
+                    <a href="world-of-glass/" target="_blank" class="btn box-shadow-underlined br-none">READ MORE &nbsp;<i
+                            class="fal fa-long-arrow-right"></i></a>
+                </p>
+            </div>
+
+        </div>
+        <script src="js/onClickActivateLink.js"></script>
+    </section>
+
+    <section class="sec4 container-fluid mw992 grayscale100 lh-2">
+        <div class="col-12">
+            <hr class="text-slicer">
+            <h2 class="text-center heading">Supported by</h2>
+            <div class="row justify-content-center align-items-center">
+                <img style="cursor: pointer;" onclick="goToKneuDpUa();" src="images/kei.png" alt="KEI"
+                    class="mw320 grayscale100 d-block mx-auto">
+            </div>
+
+        </div>
+    </section>
+
+    <hr class="text-slicer">
+    <br>
+    <br>
+    <footer class="footer text-center text-md-left" id="contacts">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 offset-xl-2 offset-lg-1  pl-0 pr-0">
+                    <div class="custom-container">
+                        <div class="upper-footer row m-0 align-items-center">
+                            <div class="col-lg-3 col-md-3 col-sm-12 ">
+                                <a class="navbar-brand mx-auto" href="https://vasyl-pilka.ml/" rel="home">
+                                    <img src="images/logo.png" width="90" alt="Vasyl Pilka">
+                                </a>
+                            </div><!-- left-side -->
+                            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-menu pl-0">
+                                <ul class="navbar-nav footerul">
+                                    <li
+                                        class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-22">
+                                        <a class="nav-link" href="#portfolio" id="footerToPortfolioFirst">
+                                            Portfolio
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-21">
+                                        <a class="nav-link" href="#gallerey" id="footerToGallereyFirst">
+                                            Gallery
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+                                        <a class="nav-link" href="mailto:orhideya090916@gmail.com">
+                                            orhideya090916@gmail.com
+                                        </a>
+                                    </li>
+                                    </a>
+                                    <li>
+                                        <!--LiveInternet counter-->
+                                        <script type="text/javascript">
+                                            document.write('<a href="//www.liveinternet.ru/click" ' +
+                                                'target="_blank"><img src="//counter.yadro.ru/hit?t14.5;r' +
+                                                escape(document.referrer) + ((typeof (screen) == 'undefined') ? '' :
+                                                    ';s' + screen.width + '*' + screen.height + '*' + (screen
+                                                        .colorDepth ?
+                                                        screen.colorDepth : screen.pixelDepth)) + ';u' + escape(
+                                                    document.URL) +
+                                                ';h' + escape(document.title.substring(0, 150)) + ';' + Math
+                                                .random() +
+                                                '" alt="" title="LiveInternet: Shows the number of views for 24' +
+                                                ' hours, visitors in 24 hours and today" ' +
+                                                'border="0" width="88" height="31"><\/a>')
+                                        </script>
+                                        <!--/LiveInternet-->
+
+                                    </li>
+                                </ul>
+                            </div><!-- left-side -->
+                            <div
+                                class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 col-sm-12  text-md-right text-center col-right">
+                                <div class="socials">
+                                    <a href="https://www.facebook.com/VasylPilka/" target="_blank">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="copyright text-center">
+                            <p>&copy; Copyright 2020 • Vasyl Pilka</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <br>
+
+
+
+    <div class="to-top wow " data-wow-duration=".3s" id="topButton" hidden>
+        <a class="btn" href="#">
+            <i class="far fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- <script src="bootstrap/js/slim.min.js"></script> -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Fontawesome -->
+    <script src="fontawesome/js/all.min.js"></script>
+</body>
+
+</html>
