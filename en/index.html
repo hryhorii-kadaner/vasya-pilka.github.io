@@ -30,6 +30,8 @@
 
     <link rel="stylesheet" href="pgwCss/pgwslider.min.css">
 
+    <link rel="stylesheet" href="../css/langButton.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="js/smoothScrillongToSections.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
@@ -58,6 +60,17 @@
 </head>
 
 <body>
+
+    
+    <!-- Switch language button -->
+    <button class='btn btn-warning' id='landShow' onclick=''><i class='far fa-globe'></i></button>
+    <div class='dropdown hiddddden' id='langShowerMenu'> 
+        <a href='../' class='drop-link d-block'>Uk</a> 
+        <a href='../en/' class='drop-link d-block'>En</a>
+    </div>
+    <script src="../js/langButtonShower.js"></script>
+    <!-- Switch language button -->
+
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous"
         src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v6.0&appId=374281786699723&autoLogAppEvents=1">
