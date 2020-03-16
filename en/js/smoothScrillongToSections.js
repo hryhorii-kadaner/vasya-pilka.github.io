@@ -44,6 +44,30 @@ $(document).ready(function () {
             }, 1000);
             return htmlWindowWidth;
         });
+        $("#footerToPortfolioFirst").on("click", function (event) {
+
+            console.log("toPortfolioFirst Event top / 2");
+
+            event.preventDefault();
+            var id = $(this).attr('href'),
+                top = $(id).offset().top / 2;
+            $('body,html').animate({
+                scrollTop: top
+            }, 1000);
+            return htmlWindowWidth;
+        });
+        $("#footerToGallereyFirst").on("click", function (event) {
+
+            console.log("toGallereyFirst Event top usuall");
+
+            event.preventDefault();
+            var id = $(this).attr('href'),
+                top = $(id).offset().top - 250;
+            $('body,html').animate({
+                scrollTop: top
+            }, 1000);
+            return htmlWindowWidth;
+        });
         $("#toContactsFirst").on("click", function (event) {
 
             console.log("toContactsFirst Event top usuall");
@@ -81,6 +105,30 @@ $(document).ready(function () {
         });
         $("#toContactsSecond").on("click", function (event) {
             closer();
+            event.preventDefault();
+            var id = $(this).attr('href'),
+                top = $(id).offset().top;
+            $('body,html').animate({
+                scrollTop: top
+            }, 1000);
+            return htmlWindowWidth;
+        });
+        $("#footerToPortfolioFirst").on("click", function (event) {
+
+            console.log("toPortfolioFirst Event top / 2");
+
+            event.preventDefault();
+            var id = $(this).attr('href'),
+                top = $(id).offset().top;
+            $('body,html').animate({
+                scrollTop: top
+            }, 1000);
+            return htmlWindowWidth;
+        });
+        $("#footerToGallereyFirst").on("click", function (event) {
+
+            console.log("toGallereyFirst Event top usuall");
+
             event.preventDefault();
             var id = $(this).attr('href'),
                 top = $(id).offset().top;

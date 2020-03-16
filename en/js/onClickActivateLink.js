@@ -1,29 +1,29 @@
 function firstLink() {
-    window.location.href = "riznobarvna-ukrayina/";
+    window.location.href = "multi-coloured-ukraine/";
 }
 
 function secondLink() {
-    window.location.href = "roboty-heniya-rukoyu-maystra/";
+    window.location.href = "works-of-genius-by-masters-hand/";
 }
 
 function thirdLink() {
-    window.location.href = "dukhovnist/";
+    window.location.href = "spirituality/";
 }
 
 function fourthLink() {
-    window.location.href = "vira/";
+    window.location.href = "faith/";
 }
 
 function fifthLink() {
-    window.location.href = "svit-prekrasnoho/";
+    window.location.href = "world-of-beauty/";
 }
 
 function sixthLink() {
-    window.location.href = "arkhitektura/";
+    window.location.href = "architecture/";
 }
 
 function seventhLink() {
-    window.location.href = "svit-skla/";
+    window.location.href = "world-of-glass/";
 }
 
 
